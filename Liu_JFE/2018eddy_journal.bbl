@@ -1,0 +1,185 @@
+\begin{thebibliography}{10}
+
+\bibitem{sick2002cfd}
+Sick, M., Doerfler, P., Sallaberger, M., Lohmberg, A., and Casey, M., 2002.
+\newblock ``Cfd simulation of the draft tube vortex''.
+\newblock In Proc. 21st IAHR Symp. Hydraulic Machinery \& Systems, Lausanne,
+  Switzerland, Paper, no.~32, pp.~1--9.
+
+\bibitem{dorfler2012flow}
+D{\"o}rfler, P., Sick, M., and Coutu, A., 2012.
+\newblock {\em Flow-induced pulsation and vibration in hydroelectric machinery:
+  engineer’s guidebook for planning, design and troubleshooting}.
+\newblock Springer Science \& Business Media.
+
+\bibitem{ruprecht2002simulation}
+Ruprecht, A., Helmrich, T., Aschenbrenner, T., and Scherer, T., 2002.
+\newblock ``Simulation of vortex rope in a turbine draft tube''.
+\newblock In Proceedings of 22nd IAHR Symposium on Hydraulic Machinery and
+  Systems, pp.~9--12.
+
+\bibitem{stein2006numerical}
+Stein, P., Sick, M., D{\"o}rfler, P., White, P., and Braune, A., 2006.
+\newblock ``Numerical simulation of the cavitating draft tube vortex in a
+  francis turbine''.
+\newblock In Proceedings of the 23rd IAHR Symposium on Hydraulic Machinery and
+  Systems, Yokohama, Japan, p.~228.
+
+\bibitem{jovst2009numerical}
+Jo{\v{s}}t, D., and Lipej, A., 2009.
+\newblock ``Numerical prediction of the vortex rope in the draft tube''.
+\newblock In Proceedings of the 3rd IAHR International Meeting of the Workgroup
+  on Cavitation and Dynamic Problems in Hydraulic Machinery and Systems,
+  pp.~75--85.
+
+\bibitem{jovst2011numerical}
+Jo{\v{s}}t, D., and Lipej, A., 2011.
+\newblock ``Numerical prediction of non-cavitating and cavitating vortex rope
+  in a francis turbine draft tube''.
+\newblock {\em Strojni{\v{s}}ki vestnik-Journal of Mechanical Engineering, {\bf
+  57}}(6), pp.~445--456.
+
+\bibitem{foroutan2012simulation}
+Foroutan, H., and Yavuzkurt, S., 2012.
+\newblock ``Simulation of flow in a simplified draft tube: turbulence closure
+  considerations''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~15,
+  IOP Publishing, p.~022020.
+
+\bibitem{foroutan2014flow}
+Foroutan, H., and Yavuzkurt, S., 2014.
+\newblock ``Flow in the simplified draft tube of a francis turbine operating at
+  partial load—part i: Simulation of the vortex rope''.
+\newblock {\em Journal of Applied Mechanics, {\bf 81}}(6), p.~061010.
+
+\bibitem{krappel2014investigation}
+Krappel, T., Ruprecht, A., Riedelbauch, S., Jester-Zuerker, R., and Jung, A.,
+  2014.
+\newblock ``Investigation of francis turbine part load instabilities using flow
+  simulations with a hybrid rans-les turbulence model''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
+  IOP Publishing, p.~032001.
+
+\bibitem{chen1995multi}
+Chen, X., 1995.
+\newblock ``Multi-dimensional finite volume simulation of fluid flows on fixed,
+  moving and deforming mesh systems''.
+
+\bibitem{skotak2000helical}
+Skotak, A., 2000.
+\newblock ``Of the helical vortex in the draft tube turbine modeling''.
+\newblock In IAHR Symposium, Charlotte.
+
+\bibitem{guo2006large}
+Guo, Y., Kato, C., and Miyagawa, K., 2006.
+\newblock ``Large-eddy simulation of non-cavitating and cavitating flows in the
+  draft tube of a francis turbine''.
+\newblock In Proceedings of the 23rd IAHR Symposium on Hydraulic Machinery and
+  Systems, Yokohama, Japan, p.~95.
+
+\bibitem{magnan2014challenges}
+Magnan, R., Cupillard, S., Gauthier, G., Giroux, A., Page, M., et~al., 2014.
+\newblock ``Challenges in assessing the grid sensitivity of hydro-turbine cfd
+  simulations''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
+  IOP Publishing, p.~022010.
+
+\bibitem{mohamed2012eddy}
+Mohamed, K., Nadarajah, S., and Paraschivoiu, M., 2012.
+\newblock ``Eddy-preserving limiter for unsteady subsonic flows''.
+\newblock {\em AIAA Journal, {\bf 50}}(2), pp.~429--446.
+
+\bibitem{yang2016low}
+Yang, L., and Nadarajah, S., 2016.
+\newblock ``A low-dissipation monotonicity-preserving scheme for turbulent
+  flows in hydraulic turbines''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~49,
+  IOP Publishing, p.~062010.
+
+\bibitem{huynh1995accurate}
+Huynh, H.~T., 1995.
+\newblock ``Accurate upwind methods for the euler equations''.
+\newblock {\em SIAM Journal on Numerical Analysis, {\bf 32}}(5),
+  pp.~1565--1619.
+
+\bibitem{goncalves2009numerical}
+Goncalves, E., and Patella, R.~F., 2009.
+\newblock ``Numerical simulation of cavitating flows with homogeneous models''.
+\newblock {\em Computers \& Fluids, {\bf 38}}(9), pp.~1682--1696.
+
+\bibitem{chang2007robust}
+Chang, C.-H., and Liou, M.-S., 2007.
+\newblock ``A robust and accurate approach to computing compressible multiphase
+  flow: Stratified flow model and ausm+-up scheme''.
+\newblock {\em Journal of Computational Physics, {\bf 225}}(1), pp.~840--873.
+
+\bibitem{le2004elaboration}
+Le~M{\'e}tayer, O., Massoni, J., and Saurel, R., 2004.
+\newblock ``{\'E}laboration des lois d'{\'e}tat d'un liquide et de sa vapeur
+  pour les mod{\v{c}}les d'{\'e}coulements diphasiques''.
+\newblock {\em International journal of thermal sciences, {\bf 43}}(3),
+  pp.~265--276.
+
+\bibitem{paillere2003extension}
+Paillere, H., Corre, C., and Cascales, J.~G., 2003.
+\newblock ``On the extension of the ausm+ scheme to compressible two-fluid
+  models''.
+\newblock {\em Computers \& Fluids, {\bf 32}}(6), pp.~891--916.
+
+\bibitem{barberon2005finite}
+Barberon, T., and Helluy, P., 2005.
+\newblock ``Finite volume simulation of cavitating flows''.
+\newblock {\em Computers \& Fluids, {\bf 34}}(7), pp.~832--858.
+
+\bibitem{saurel1999simple}
+Saurel, R., and Abgrall, R., 1999.
+\newblock ``A simple method for compressible multifluid flows''.
+\newblock {\em SIAM Journal on Scientific Computing, {\bf 21}}(3),
+  pp.~1115--1145.
+
+\bibitem{shyue1999fluid}
+Shyue, K.-M., 1999.
+\newblock ``A fluid-mixture type algorithm for compressible multicomponent flow
+  with van der waals equation of state''.
+\newblock {\em Journal of Computational Physics, {\bf 156}}(1), pp.~43--88.
+
+\bibitem{luo2004computation}
+Luo, H., Baum, J.~D., and L{\"o}hner, R., 2004.
+\newblock ``On the computation of multi-material flows using ale formulation''.
+\newblock {\em Journal of Computational Physics, {\bf 194}}(1), pp.~304--328.
+
+\bibitem{gallouet2002some}
+Gallou{\"e}t, T., H{\'e}rard, J.-M., and Seguin, N., 2002.
+\newblock ``Some recent finite volume schemes to compute euler equations using
+  real gas eos''.
+\newblock {\em International Journal for Numerical Methods in Fluids, {\bf
+  39}}(12), pp.~1073--1138.
+
+\bibitem{turkel1987preconditioned}
+Turkel, E., 1987.
+\newblock ``Preconditioned methods for solving the incompressible and low speed
+  compressible equations''.
+\newblock {\em Journal of Computational Physics, {\bf 72}}(2), pp.~277--298.
+
+\bibitem{chakraborty2005relationships}
+Chakraborty, P., Balachandar, S., and Adrian, R.~J., 2005.
+\newblock ``On the relationships between local vortex identification schemes''.
+\newblock {\em Journal of Fluid Mechanics, {\bf 535}}, pp.~189--214.
+
+\bibitem{vu2014cfd}
+Vu, T., Gauthier, M., Nennemann, B., Wallimann, H., and Desch{\^e}nes, C.,
+  2014.
+\newblock ``Cfd analysis of a bulb turbine and validation with measurements
+  from the bulbt project''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
+  IOP Publishing, p.~022008.
+
+\bibitem{vuillemard2014experimental}
+Vuillemard, J., Aeschlimann, V., Fraser, R., Lemay, S., and Desch{\^e}nes, C.,
+  2014.
+\newblock ``Experimental investigation of the draft tube inlet flow of a bulb
+  turbine''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
+  IOP Publishing, p.~032010.
+
+\end{thebibliography}

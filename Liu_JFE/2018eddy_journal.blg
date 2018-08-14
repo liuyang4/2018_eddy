@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 2018eddy_journal.aux
+The style file: asmems4.bst
+Database file #1: 2018eddyjournal.bib
+Warning--there's a number but no series in sick2002cfd
+Warning--can't use both volume and number fields in foroutan2012simulation
+Warning--can't use both volume and number fields in krappel2014investigation
+Warning--empty journal in chen1995multi
+Warning--can't use both volume and number fields in magnan2014challenges
+Warning--can't use both volume and number fields in yang2016low
+Warning--can't use both volume and number fields in vu2014cfd
+Warning--can't use both volume and number fields in vuillemard2014experimental
+You've used 29 entries,
+            1984 wiz_defined-function locations,
+            659 strings with 8966 characters,
+and the built_in function-call counts, 8995 in all, are:
+= -- 876
+> -- 275
+< -- 0
++ -- 111
+- -- 82
+* -- 578
+:= -- 1172
+add.period$ -- 86
+call.type$ -- 29
+change.case$ -- 28
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 512
+empty$ -- 837
+format.name$ -- 82
+if$ -- 2177
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 30
+newline$ -- 147
+num.names$ -- 29
+pop$ -- 128
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 391
+stack$ -- 0
+substring$ -- 625
+swap$ -- 276
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 89
+width$ -- 31
+write$ -- 329
+(There were 8 warnings)

@@ -1,0 +1,28 @@
+In the MUSCL scheme, the primitive variables $\mathbf{V}=[\rho, u_{1}, u_{2}, u_{3}, p]^{T}$ are interpolated at the interfaces of cell $i$ and cell $i+1$ using,
+\begin{align} 
+\mathbf{V}_{i+\frac{1}{2}}^{L}&=\mathbf{V}_{i}+\frac{\Phi_{i} }{4}[(1-\kappa )\Delta _{i-\frac{1}{2}}^{u} \mathbf{V}+(1+\kappa)\Delta_{i+\frac{1}{2}}^{c} \mathbf{V}], \\
+\mathbf{V}_{i+\frac{1}{2}}^{R}&=\mathbf{V}_{i+1}-\frac{\Phi_{i+1} }{4}[(1-\kappa )\Delta _{i+\frac{3}{2}}^{u} \mathbf{V}+(1+\kappa)\Delta_{i+\frac{1}{2}}^{c} \mathbf{V}],
+\end{align}
+where $\Phi_{i}$ and $\Phi_{i+1}$ are slope limiters, and $-1\leq \kappa \leq 1$. The upwind and central increments are computed by,
+\begin{align} 
+\Delta_{i-\frac{1}{2}}^{u} \mathbf{V}=\mathbf{V}_{i}-\mathbf{V}_{i-1} \quad \text{and} \quad
+\Delta_{i+\frac{3}{2}}^{u} \mathbf{V}= \mathbf{V}_{i+2}-\mathbf{V}_{i+1},
+\end{align}
+\begin{align} 
+  \Delta_{i+\frac{1}{2}}^{c} \mathbf{V}= \mathbf{V}_{i+1}-\mathbf{V}_{i},
+\end{align}
+where the superscripts $u$ and $c$ denotes either upwind or central increments. In our baseline MUSCL scheme, $\kappa=\frac{1}{3}$ and the van Albada limiter is employed,
+\begin{align} 
+\Phi(R)&=\left\{\begin{matrix}
+ \frac{2R}{R^{2}+1}, &\text{if } R>0 \\ 
+0, &\text{if } R \leq 0
+\end{matrix}\right. {\text {, where }} R_{i}=\frac{\mathbf{V}_{i+1}-\mathbf{V}_{i}}{\mathbf{V}_{i}-\mathbf{V}_{i-1}}.
+\label{valimiter}
+\end{align}
+When $\kappa$ is further increased, the artificial dissipation decreases. In the limit, where $\kappa=1$, a purely central but unstable convective flux calculation scheme is obtained.
+
+
+
+
+
+

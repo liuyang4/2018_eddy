@@ -1,0 +1,32 @@
+To simulate incompressible hydro-turbine flows, the stiffened gas law is employed as the equation of state, which is given by,
+\begin{align} 
+p = (\gamma - 1)\rho e-\gamma p_{\infty},
+\end{align}
+and the speed of sound is computed by,
+\begin{align} 
+c=\sqrt{\gamma \frac{p+p_{\infty}}{\rho}}.
+\end{align}
+The specific heat ratio, $\gamma$ and $p_{\infty}$ are two parameters used to define liquids with different properties. The stiffened gas equation of state can provide a reasonable approximation for liquids under high pressure conditions. For water, values for $\gamma$ and $p_{\infty}$ used by various authors are listed in Table 1. In this paper, to respect the physical speed of sound in water at $20^{\degree}$C, $\gamma$ and $p_{\infty}$ are chosen to be 7.15 and $3.1\times10^{8}$ Pa respectively. 
+
+\begin{table}[t]
+\caption{Parameters for stiffened gas equation of state used by various authors.}
+\begin{center}
+\label{table_ASME} 
+\begin{tabular}{c l l l}
+\hline
+Authors&$\gamma$&$p_{\infty}$ ($\times10^{8}$ Pa)&Sound Speed (m/s)\\
+\hline
+Goncalves \& Patella \cite{goncalves2009numerical} &1.01&0.1211&110.7 (artificial)\\
+Chang \& Liou \cite{chang2007robust} &1.932&11.645&1482\\
+Le M{\'e}tayer et al. \cite{le2004elaboration}&2.35&10.0&1533\\
+Paillere et al. \cite{paillere2003extension}&2.8&8.5&1543\\
+Barberon \& Helluy \cite{barberon2005finite}&3.0&8.533&1600\\
+Saurel \& Abgrall \cite{saurel1999simple}&4.4&6.0&1626\\
+Shyue \cite{shyue1999fluid}&7.0&3.0&1449\\
+Luo et al. \cite{luo2004computation}&7.0&3.03975&1459\\
+Gallou{\"e}t et al. \cite{gallouet2002some}&7.15&3.0&1465\\
+Present paper&7.15&3.1&1489\\
+\hline
+\end{tabular}
+\end{center}
+\end{table} 

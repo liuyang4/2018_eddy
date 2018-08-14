@@ -1,0 +1,15 @@
+To extend the eddy-preserving limiter, the van Albada limiter for the interpolation of pressure is switched off at smooth extrema. By setting $\Phi_{i}=\Phi_{i+1}=1$, the interpolation for pressure at smooth extrema is given by,
+\begin{align} 
+p_{i+\frac{1}{2}}^{L}&=p_{i}+\frac{1}{4}[(1-\kappa )\Delta _{i-\frac{1}{2}}^{u} p+(1+\kappa)\Delta _{i+\frac{1}{2}}^{c} p], \\
+p_{i+\frac{1}{2}}^{R}&=p_{i+1}-\frac{1}{4}[(1-\kappa )\Delta _{i+\frac{3}{2}}^{u} p+(1+\kappa)\Delta _{i+\frac{1}{2}}^{c} p].
+\end{align}
+The smooth extrema is detected based on a criterion proposed by Huynh \cite{huynh1995accurate}. If the solution is smooth at the extremum, then the second-difference in neighbouring cells are comparable. Define the second-difference of $p$ as,
+\begin{align} 
+\Delta _{i}^{2} p = p_{i-1}-2p_{i}+p_{i+1}.
+\end{align}
+If the following conditions are satisfied,
+\begin{align} 
+\frac{4}{5}\le \frac{{\Delta} _{i-1}^{2} p}{{\Delta} _{i}^{2} p}\le \frac{5}{4}, \\
+\frac{4}{5}\le \frac{{\Delta} _{i+1}^{2} p}{{\Delta} _{i}^{2} p}\le \frac{5}{4}, 
+\end{align}
+then the extremum is considered to be smooth, and the limiting is unnecessary. As remarked by Huynh \cite{huynh1995accurate}, the factors $\frac{4}{5}$ and $\frac{5}{4}$ can be relaxed to $\frac{2}{3}$ and $\frac{3}{2}$ for the case of linear convection.

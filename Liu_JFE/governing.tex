@@ -1,0 +1,35 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Consider the three-dimensional compressible Navier-Stokes equations using Einstein notation,
+\begin{align} 
+   \frac{\partial \mathbf{W}}{\partial t}+\frac{\partial \mathbf{F}_{i}}{\partial x_{i}} -\frac{\partial \mathbf{F_{v}}_{i}}{\partial x_{i}}=0,
+\end{align}
+where the state vector $\mathbf{W}$, the inviscid fluxes $\mathbf{F}_{i}$, and the viscous fluxes $\mathbf{F_{v}}_{i}$ are given by,
+\begin{align} 
+\mathbf{W} = \begin{pmatrix}
+\rho\\ 
+\rho u_{1}\\ 
+\rho u_{2}\\ 
+\rho u_{3}\\ 
+\rho E
+\end{pmatrix}, 
+\mathbf{F}_{i} = \begin{pmatrix}
+\rho u_{i}\\ 
+\rho u_{1}u_{i}+p\delta_{i1}\\ 
+\rho u_{2}u_{i}+p\delta_{i2}\\ 
+\rho u_{3}u_{i}+p\delta_{i3}\\ 
+\rho Eu_{i} + pu_{i}
+\end{pmatrix}, 
+\mathbf{F_{v}}_{i}=\begin{pmatrix}
+0\\ 
+\tau_{ij}\delta_{i1}\\ 
+\tau_{ij}\delta_{i2}\\ 
+\tau_{ij}\delta_{i3}\\ 
+u_{j}\tau_{ij}+\kappa \frac{\partial T}{\partial x_{i}}
+\end{pmatrix}.
+\end{align}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In the above equations, $\rho, p$ and $T$ are the density, pressure, and temperature respectively. The specific total energy is denoted by $E$ and $\mathbf{u}=[u_{1}, u_{2}, u_{3}]^{T}$ is the velocity vector. $\tau_{ij}$ is the viscous stress and $\delta_{ij}$ is the Kronecker delta function. The governing equations are solved with an in-house second-order finite-volume approach and the k-$\omega$ SST turbulence model. Three schemes, i. e. MUSCL, original eddy-preserving limiter, and extended eddy-preserving limiter schemes, are employed for the spatial discretization, and will be described in later subsections. For unsteady simulations, dual time stepping and a second-order backward difference formula (BDF) are employed. The solution is advanced with Jameson's five-stage modified Runge-Kutta method. Local time-stepping and multigrid techniques, as well as implicit residual smoothing, are utilized to speed up the convergence. 
+
+
+

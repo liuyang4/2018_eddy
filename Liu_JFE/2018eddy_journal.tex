@@ -1,0 +1,203 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%% asme2ej.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Template for producing ASME-format journal articles using LaTeX    %
+% Written by   Harry H. Cheng, Professor and Director                %
+%              Integration Engineering Laboratory                    %
+%              Department of Mechanical and Aeronautical Engineering %
+%              University of California                              %
+%              Davis, CA 95616                                       %
+%              Tel: (530) 752-5020 (office)                          %
+%                   (530) 752-1028 (lab)                             %
+%              Fax: (530) 752-4158                                   %
+%              Email: hhcheng@ucdavis.edu                            %
+%              WWW:   http://iel.ucdavis.edu/people/cheng.html       %
+%              May 7, 1994                                           %
+% Modified: February 16, 2001 by Harry H. Cheng                      %
+% Modified: January  01, 2003 by Geoffrey R. Shiflett                %
+% Use at your own risk, send complaints to /dev/null                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% use twocolumn and 10pt options with the asme2ej format
+\documentclass[twocolumn,10pt]{asme2ej}
+
+\usepackage{epsfig} %% for loading postscript figures
+
+%%%
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usepackage[hidelinks]{hyperref}
+\usepackage{morefloats}
+%%%
+
+
+\title{An Extended Eddy-Preserving Scheme for Draft Tube Flows}
+
+%%% first author
+\author{Liu Yang\thanks{Address all correspondence related to ASME style format and figures to this author.}
+    \affiliation{
+	Department of Mechanical Engineering\\
+        McGill University\\
+        Montreal, Quebec, H3A 0C3, Canada\\
+        Email address: \\
+        liu.yang4@mail.mcgill.ca
+    }	
+}
+
+%%% second author
+%%% remove the following entry for single author papers
+%%% add more entries for additional authors
+\author{Yao Jiang
+    \affiliation{ 
+	Department of Mechanical Engineering\\
+        McGill University\\
+        Montreal, Quebec, H3A 0C3, Canada\\
+        Email address: \\
+        yao.jiang@mail.mcgill.ca
+    }
+}
+
+%%% third author
+%%% remove the following entry for single author papers
+%%% add more entries for additional authors
+\author{Siva Nadarajah\thanks{Address all correspondence for other issues to this author.} 
+    \affiliation{Associate Professor\\
+        Department of Mechanical Engineering\\
+        McGill University\\
+        Montreal, Quebec, H3A 0C3, Canada\\
+        Email address: siva.nadarajah@mcgill.ca
+    }
+}
+
+%%%%%
+%\renewenvironment{nomenclature}[1][1cm]{%
+%    \newcommand\entry[2]{\item[##1]##2\par}
+%    \section*{NOMENCLATURE}
+%    \list{}{\leftmargin #1}%
+%  }%
+%  {\endlist\par\addvspace{12pt}}
+%%%%%
+\begin{document}
+
+\maketitle    
+
+\input{legend}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+{\it  
+The eddy-preserving limiter has been demonstrated to outperform the conventional van Albada limiter for Monotone Upstream-centered Schemes for Conservation Laws (MUSCL) for vortical flows. It reduces the dissipation by inactivating the conventional van Albada limiter in the interpolation of velocity components on the swirl plane of the vortex. In this work, we extend the limiter for the interpolation of pressure, since a minimum pressure often exists along the axis of a free vortex. Three-dimensional vortex advection cases are employed to demonstrate the effects of the novel scheme. An extended eddy-preserving limiter scheme has been demonstrated to further improve the preservation of the pressure extrema. Finally, the scheme is applied to flow through a draft tube (BulbT test case) and the numerical results are compared against experimental data.
+}
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{nomenclature}
+\entry{$c$}{speed of sound}
+\entry{$M$}{local Mach number}
+\entry{$M_{ref}$}{reference Mach number}
+\entry{$\mathbf{P}$}{preconditioning matrix}
+\entry{$\mathbf{R}$}{vector of esiduals}
+\entry{$\mathbf{V}$}{vector of primitive variables}
+\entry{$\mathbf{W}$}{vector of conservative variables}
+\entry{$\mathbf{W}_{0}$}{vector of entropy variables}
+\entry{$\alpha$}{dissipation scaledown factor}
+\entry{$\Phi$}{slope limiter}
+\end{nomenclature}
+
+%The primary text heading is  boldface and flushed left with the left margin.  The spacing between the  text and the heading is two line spaces.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\input{intro}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methodology}
+
+\subsection{Governing Equations}
+\input{governing}
+
+\subsection{Equation of State}
+\input{eos}
+
+\subsection{Low-Speed Preconditioning}
+\input{precondition}
+
+\subsection{Monotonic Upstream-centered Scheme for Conservation Laws (MUSCL)}
+\input{muscl}
+
+\subsection{Eddy-Preserving Limiter Scheme}
+\input{eddy}
+
+\subsection{Extended Eddy-Preserving Limiter Scheme}
+\input{eddy-p}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Numerical Results} 
+
+\subsection{Three Dimensional Inviscid Vortex Advection}
+\input{vortex3d}
+%\FloatBarrier
+\subsection{Three Dimensional Viscous Vortex Advection}
+\input{vortex3dv}
+%\FloatBarrier
+
+\subsection{BulbT Test Case}
+\input{bulbt}
+%\FloatBarrier
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+\input{conclusions}
+%\FloatBarrier
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acknowledgment}
+The authors would like to thank the Natural Sciences and Engineering Research Council of Canada (NSERC) Collaborative Research and Development Program and industrial partner Hydro Quebec for the funding under grant number CRDPJ 452312 - 13. The authors would also like to acknowledge the valuable contributions of Drs. Giroux, Page, Magnan, Cupillard and Morissette.
+\end{acknowledgment}
+\FloatBarrier
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The bibliography is stored in an external database file
+% in the BibTeX format (file_name.bib).  The bibliography is
+% created by the following command and it will appear in this
+% position in the document. You may, of course, create your
+% own bibliography by using thebibliography environment as in
+%
+% \begin{thebibliography}{12}
+% ...
+% \bibitem{itemreference} D. E. Knudsen.
+% {\em 1966 World Bnus Almanac.}
+% {Permafrost Press, Novosibirsk.}
+% ...
+% \end{thebibliography}
+
+% Here's where you specify the bibliography style file.
+% The full file name for the bibliography style file 
+% used for an ASME paper is asmems4.bst.
+\bibliographystyle{asmems4}
+
+% Here's where you specify the bibliography database file.
+% The full file name of the bibliography database for this
+% article is asme2e.bib. The name for your database is up
+% to you.
+\bibliography{2018eddyjournal}
+%\bibliography{asme2e}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\appendix       %%% starting appendix
+%\section*{Appendix A: Head of First Appendix}
+%Avoid Appendices if possible.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Appendix B: Head of Second Appendix}
+%\subsection*{Subsection head in appendix}
+%The equation counter is not reset in an appendix and the numbers will
+%follow one continual sequence from the beginning of the article to the very end as shown in the following example.
+%\begin{equation}
+%a = b + c.
+%\end{equation}
+
+\end{document}
