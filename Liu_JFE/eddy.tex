@@ -57,14 +57,8 @@ The algorithm for the eddy-preserving limiting procedure is described below:
 \item In the swirl plane, reconstruct variables using a higher $\kappa$ which leads to less artificial dissipation and inactivate the van Albada limiter by setting $\Phi_{i} = \Phi_{i+1} = 1$. 
 
 \item Transform interpolated velocity components back to the original system $\mathbf{S}_{0}$ and evaluate the fluxes.
-% These variables are ready for computing fluxes.
+
 \end{enumerate}
 
-%\begin{align} % requires amsmath; align* for no eq. number
-%\mathbf{V}_{i+\frac{1}{2}}^{L}=\mathbf{V}_{i}+\frac{\Phi_{i} }{4}[(1-\kappa )(\mathbf{V}_{i}-\mathbf{V}_{i-1})+(1+\kappa)(\mathbf{V}_{i+1}-\mathbf{V}_{i})],
-%\end{align}
-%\begin{align} % requires amsmath; align* for no eq. number
-%\mathbf{V}_{i+\frac{1}{2}}^{R}=\mathbf{V}_{i+1}-\frac{\Phi_{i+1} }{4}[(1-\kappa )(\mathbf{V}_{i+1}-\mathbf{V}_{i})+(1+\kappa)(\mathbf{V}_{i+2}-\mathbf{V}_{i+1})],
-%\end{align}
 
 

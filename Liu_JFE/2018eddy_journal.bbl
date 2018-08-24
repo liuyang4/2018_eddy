@@ -166,6 +166,14 @@ Chakraborty, P., Balachandar, S., and Adrian, R.~J., 2005.
 \newblock ``On the relationships between local vortex identification schemes''.
 \newblock {\em Journal of Fluid Mechanics, {\bf 535}}, pp.~189--214.
 
+\bibitem{vuillemard2014experimental}
+Vuillemard, J., Aeschlimann, V., Fraser, R., Lemay, S., and Desch{\^e}nes, C.,
+  2014.
+\newblock ``Experimental investigation of the draft tube inlet flow of a bulb
+  turbine''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
+  IOP Publishing, p.~032010.
+
 \bibitem{vu2014cfd}
 Vu, T., Gauthier, M., Nennemann, B., Wallimann, H., and Desch{\^e}nes, C.,
   2014.
@@ -174,12 +182,16 @@ Vu, T., Gauthier, M., Nennemann, B., Wallimann, H., and Desch{\^e}nes, C.,
 \newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
   IOP Publishing, p.~022008.
 
-\bibitem{vuillemard2014experimental}
-Vuillemard, J., Aeschlimann, V., Fraser, R., Lemay, S., and Desch{\^e}nes, C.,
-  2014.
-\newblock ``Experimental investigation of the draft tube inlet flow of a bulb
-  turbine''.
-\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
-  IOP Publishing, p.~032010.
+\bibitem{pereira2017flow}
+Pereira, M., Duquesne, P., Aeschlimann, V., and Desch{\^e}nes, C., 2017.
+\newblock ``Flow field investigation in a bulb turbine diffuser''.
+\newblock In Journal of Physics: Conference Series, Vol.~813, IOP Publishing,
+  p.~012047.
+
+\bibitem{fox1971effects}
+Fox, R., and McDonald, A., 1971.
+\newblock ``Effects of swirling inlet flow on pressure recovery in conical
+  diffusers''.
+\newblock {\em AIAA Journal, {\bf 9}}(10), pp.~2014--2018.
 
 \end{thebibliography}
