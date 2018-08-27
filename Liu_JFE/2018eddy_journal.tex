@@ -97,16 +97,21 @@ The eddy-preserving limiter has been demonstrated to outperform the conventional
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{nomenclature}
 \entry{$c$}{speed of sound}
+\entry{$p$}{pressure}
+\entry{$y^{+}$}{dimensionless wall distance}
 \entry{$M$}{local Mach number}
 \entry{$M_{ref}$}{reference Mach number}
 \entry{$\mathbf{P}$}{preconditioning matrix}
 \entry{$\mathbf{R}$}{vector of residuals}
+\entry{$\mathbf{S}_{0}$}{Cartesian coordinate system}
+\entry{$\mathbf{S}_{\omega}$}{vortex coordinate system}
 \entry{$\mathbf{V}$}{vector of primitive variables}
 \entry{$\mathbf{v}$}{vector of velocity}
 \entry{$\mathbf{W}$}{vector of conservative variables}
 \entry{$\mathbf{W}_{0}$}{vector of entropy variables}
 \entry{$\alpha$}{dissipation scaledown factor}
 \entry{$\sigma$}{eigenvalues of the velocity gradient tensor}
+\entry{$\rho$}{density}
 \entry{$\Phi$}{slope limiter}
 \entry{$\chi$}{recovery coefficient}
 \end{nomenclature}
@@ -143,19 +148,18 @@ The eddy-preserving limiter has been demonstrated to outperform the conventional
 
 \subsection{Three Dimensional Inviscid Vortex Advection}
 \input{vortex3d}
-%\FloatBarrier
+
 \subsection{Three Dimensional Viscous Vortex Advection}
 \input{vortex3dv}
-%\FloatBarrier
+
 
 \subsection{BulbT Test Case}
 \input{bulbt}
-%\FloatBarrier
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
 \input{conclusions}
-%\FloatBarrier
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgment}
