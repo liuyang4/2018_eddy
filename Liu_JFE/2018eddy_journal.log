@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 SEP 2018 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 SEP 2018 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,12 +851,6 @@ x.map}
 
 
 ]
-Underfull \hbox (badness 1127) in paragraph at lines 9--19
-\OT1/ptm/m/it/10 ori \OT1/ptm/m/n/10 knowl-edge of in-her-ent flow fea-tures pr
-esent in the
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) [2]
@@ -865,7 +859,11 @@ Overfull \hbox (4.28943pt too wide) in paragraph at lines 30--30
 [] 
  []
 
-) (./eos.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./eos.tex
 Overfull \hbox (13.24237pt too wide) in paragraph at lines 15--31
  [] 
  []
@@ -877,15 +875,14 @@ Underfull \hbox (badness 5832) in paragraph at lines 4--6
  []
 
 [3]) (./muscl.tex) (./eddy.tex
-<./figures/vorcord.png, id=184, 654.445pt x 592.2125pt>
+<./figures/vorcord.png, id=178, 654.445pt x 592.2125pt>
 File: ./figures/vorcord.png Graphic file (type png)
 
 <use ./figures/vorcord.png>
 Package pdftex.def Info: ./figures/vorcord.png used on input line 4.
 (pdftex.def)             Requested size: 238.96957pt x 216.24161pt.
- [4 <./figures/vorcord.png>]) (./eddy-p.tex)
-(./vortex3d.tex
-<./figures/vortex3d/vortex3d.png, id=212, 1226.5825pt x 1089.06876pt>
+ [4]) (./eddy-p.tex) (./vortex3d.tex
+<./figures/vortex3d/vortex3d.png, id=213, 1226.5825pt x 1089.06876pt>
 File: ./figures/vortex3d/vortex3d.png Graphic file (type png)
 
 <use ./figures/vortex3d/vortex3d.png>
@@ -893,7 +890,7 @@ Package pdftex.def Info: ./figures/vortex3d/vortex3d.png used on input line 17.
 
 (pdftex.def)             Requested size: 238.96957pt x 161.5419pt.
 
-<./figures/vortex3d/04up/04u1.png, id=215, 1218.5525pt x 1083.04625pt>
+<./figures/vortex3d/04up/04u1.png, id=216, 1218.5525pt x 1083.04625pt>
 File: ./figures/vortex3d/04up/04u1.png Graphic file (type png)
 
 <use ./figures/vortex3d/04up/04u1.png>
@@ -901,7 +898,7 @@ Package pdftex.def Info: ./figures/vortex3d/04up/04u1.png used on input line 26
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.09372pt.
 
-<./figures/vortex3d/03up/03u1.png, id=217, 1220.56pt x 1085.05376pt>
+<./figures/vortex3d/03up/03u1.png, id=218, 1220.56pt x 1085.05376pt>
 File: ./figures/vortex3d/03up/03u1.png Graphic file (type png)
 
 <use ./figures/vortex3d/03up/03u1.png>
@@ -909,7 +906,7 @@ Package pdftex.def Info: ./figures/vortex3d/03up/03u1.png used on input line 27
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.13478pt.
 
-<./figures/vortex3d/05up/05u1.png, id=219, 1219.55624pt x 1084.05pt>
+<./figures/vortex3d/05up/05u1.png, id=220, 1219.55624pt x 1084.05pt>
 File: ./figures/vortex3d/05up/05u1.png Graphic file (type png)
 
 <use ./figures/vortex3d/05up/05u1.png>
@@ -917,7 +914,7 @@ Package pdftex.def Info: ./figures/vortex3d/05up/05u1.png used on input line 28
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.12225pt.
 
-<./figures/vortex3d/04up/04u3.png, id=221, 1219.55624pt x 1084.05pt>
+<./figures/vortex3d/04up/04u3.png, id=222, 1219.55624pt x 1084.05pt>
 File: ./figures/vortex3d/04up/04u3.png Graphic file (type png)
 
 <use ./figures/vortex3d/04up/04u3.png>
@@ -925,7 +922,7 @@ Package pdftex.def Info: ./figures/vortex3d/04up/04u3.png used on input line 29
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.12225pt.
 
-<./figures/vortex3d/03up/03u3.png, id=223, 1218.5525pt x 1084.05pt>
+<./figures/vortex3d/03up/03u3.png, id=224, 1218.5525pt x 1084.05pt>
 File: ./figures/vortex3d/03up/03u3.png Graphic file (type png)
 
 <use ./figures/vortex3d/03up/03u3.png>
@@ -933,7 +930,7 @@ Package pdftex.def Info: ./figures/vortex3d/03up/03u3.png used on input line 30
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.23273pt.
 
-<./figures/vortex3d/05up/05u3.png, id=225, 1219.55624pt x 1083.04625pt>
+<./figures/vortex3d/05up/05u3.png, id=226, 1219.55624pt x 1083.04625pt>
 File: ./figures/vortex3d/05up/05u3.png Graphic file (type png)
 
 <use ./figures/vortex3d/05up/05u3.png>
@@ -941,7 +938,7 @@ Package pdftex.def Info: ./figures/vortex3d/05up/05u3.png used on input line 31
 .
 (pdftex.def)             Requested size: 160.88971pt x 142.98335pt.
 
-<./figures/vortex3d/04up/04u5.png, id=227, 1218.5525pt x 1084.05pt>
+<./figures/vortex3d/04up/04u5.png, id=228, 1218.5525pt x 1084.05pt>
 File: ./figures/vortex3d/04up/04u5.png Graphic file (type png)
 
 <use ./figures/vortex3d/04up/04u5.png>
@@ -949,7 +946,7 @@ Package pdftex.def Info: ./figures/vortex3d/04up/04u5.png used on input line 32
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.23273pt.
 
-<./figures/vortex3d/03up/03u5.png, id=229, 1220.56pt x 1085.05376pt>
+<./figures/vortex3d/03up/03u5.png, id=230, 1220.56pt x 1085.05376pt>
 File: ./figures/vortex3d/03up/03u5.png Graphic file (type png)
 
 <use ./figures/vortex3d/03up/03u5.png>
@@ -957,15 +954,15 @@ Package pdftex.def Info: ./figures/vortex3d/03up/03u5.png used on input line 33
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.13478pt.
 
-<./figures/vortex3d/05up/05u5.png, id=231, 1218.5525pt x 1083.04625pt>
+<./figures/vortex3d/05up/05u5.png, id=232, 1218.5525pt x 1083.04625pt>
 File: ./figures/vortex3d/05up/05u5.png Graphic file (type png)
 
 <use ./figures/vortex3d/05up/05u5.png>
 Package pdftex.def Info: ./figures/vortex3d/05up/05u5.png used on input line 34
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.09372pt.
-
-<./figures/vortex3d/04up/04p1.png, id=235, 1219.55624pt x 1084.05pt>
+ [5 <./figures/vorcord.png>]
+<./figures/vortex3d/04up/04p1.png, id=258, 1219.55624pt x 1084.05pt>
 File: ./figures/vortex3d/04up/04p1.png Graphic file (type png)
 
 <use ./figures/vortex3d/04up/04p1.png>
@@ -973,7 +970,7 @@ Package pdftex.def Info: ./figures/vortex3d/04up/04p1.png used on input line 44
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.12225pt.
 
-<./figures/vortex3d/03up/03p1.png, id=237, 1219.55624pt x 1084.05pt>
+<./figures/vortex3d/03up/03p1.png, id=260, 1219.55624pt x 1084.05pt>
 File: ./figures/vortex3d/03up/03p1.png Graphic file (type png)
 
 <use ./figures/vortex3d/03up/03p1.png>
@@ -981,7 +978,7 @@ Package pdftex.def Info: ./figures/vortex3d/03up/03p1.png used on input line 45
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.12225pt.
 
-<./figures/vortex3d/05up/05p1.png, id=239, 1219.55624pt x 1084.05pt>
+<./figures/vortex3d/05up/05p1.png, id=262, 1219.55624pt x 1084.05pt>
 File: ./figures/vortex3d/05up/05p1.png Graphic file (type png)
 
 <use ./figures/vortex3d/05up/05p1.png>
@@ -989,7 +986,7 @@ Package pdftex.def Info: ./figures/vortex3d/05up/05p1.png used on input line 46
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.12225pt.
 
-<./figures/vortex3d/04up/04p3.png, id=241, 1218.5525pt x 1083.04625pt>
+<./figures/vortex3d/04up/04p3.png, id=264, 1218.5525pt x 1083.04625pt>
 File: ./figures/vortex3d/04up/04p3.png Graphic file (type png)
 
 <use ./figures/vortex3d/04up/04p3.png>
@@ -997,7 +994,7 @@ Package pdftex.def Info: ./figures/vortex3d/04up/04p3.png used on input line 47
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.09372pt.
 
-<./figures/vortex3d/03up/03p3.png, id=243, 1220.56pt x 1085.05376pt>
+<./figures/vortex3d/03up/03p3.png, id=266, 1220.56pt x 1085.05376pt>
 File: ./figures/vortex3d/03up/03p3.png Graphic file (type png)
 
 <use ./figures/vortex3d/03up/03p3.png>
@@ -1005,7 +1002,7 @@ Package pdftex.def Info: ./figures/vortex3d/03up/03p3.png used on input line 48
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.13478pt.
 
-<./figures/vortex3d/05up/05p3.png, id=245, 1218.5525pt x 1083.04625pt>
+<./figures/vortex3d/05up/05p3.png, id=268, 1218.5525pt x 1083.04625pt>
 File: ./figures/vortex3d/05up/05p3.png Graphic file (type png)
 
 <use ./figures/vortex3d/05up/05p3.png>
@@ -1013,7 +1010,7 @@ Package pdftex.def Info: ./figures/vortex3d/05up/05p3.png used on input line 49
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.09372pt.
 
-<./figures/vortex3d/04up/04p5.png, id=247, 1218.5525pt x 1083.04625pt>
+<./figures/vortex3d/04up/04p5.png, id=270, 1218.5525pt x 1083.04625pt>
 File: ./figures/vortex3d/04up/04p5.png Graphic file (type png)
 
 <use ./figures/vortex3d/04up/04p5.png>
@@ -1021,7 +1018,7 @@ Package pdftex.def Info: ./figures/vortex3d/04up/04p5.png used on input line 50
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.09372pt.
 
-<./figures/vortex3d/03up/03p5.png, id=249, 1219.55624pt x 1084.05pt>
+<./figures/vortex3d/03up/03p5.png, id=272, 1219.55624pt x 1084.05pt>
 File: ./figures/vortex3d/03up/03p5.png Graphic file (type png)
 
 <use ./figures/vortex3d/03up/03p5.png>
@@ -1029,14 +1026,14 @@ Package pdftex.def Info: ./figures/vortex3d/03up/03p5.png used on input line 51
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.12225pt.
 
-<./figures/vortex3d/05up/05p5.png, id=251, 1218.5525pt x 1083.04625pt>
+<./figures/vortex3d/05up/05p5.png, id=274, 1218.5525pt x 1083.04625pt>
 File: ./figures/vortex3d/05up/05p5.png Graphic file (type png)
 
 <use ./figures/vortex3d/05up/05p5.png>
 Package pdftex.def Info: ./figures/vortex3d/05up/05p5.png used on input line 52
 .
 (pdftex.def)             Requested size: 160.88971pt x 143.09372pt.
- [5 <./figures/vortex3d/vortex3d.png>]
+
 <./figures/vortex3d/l2/u.png, id=280, 1092.08pt x 969.6225pt>
 File: ./figures/vortex3d/l2/u.png Graphic file (type png)
 
@@ -1079,12 +1076,11 @@ File: ./figures/vortex3d/order.png Graphic file (type png)
 <use ./figures/vortex3d/order.png>
 Package pdftex.def Info: ./figures/vortex3d/order.png used on input line 92.
 (pdftex.def)             Requested size: 238.96957pt x 212.32845pt.
-) (./vortex3dv.tex [6 <./figures/vortex3d/04up/04u1.png> <./figures/vortex3d/03
-up/03u1.png> <./figures/vortex3d/05up/05u1.png> <./figures/vortex3d/04up/04u3.p
-ng> <./figures/vortex3d/03up/03u3.png> <./figures/vortex3d/05up/05u3.png> <./fi
-gures/vortex3d/04up/04u5.png> <./figures/vortex3d/03up/03u5.png> <./figures/vor
-tex3d/05up/05u5.png>]
-<./figures/vortex3d/viscous/m1.png, id=328, 1092.08pt x 969.6225pt>
+) (./vortex3dv.tex
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+
+<./figures/vortex3d/viscous/m1.png, id=295, 1092.08pt x 969.6225pt>
 File: ./figures/vortex3d/viscous/m1.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/m1.png>
@@ -1092,7 +1088,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/m1.png used on input line 1
 0.
 (pdftex.def)             Requested size: 78.44843pt x 69.22289pt.
 
-<./figures/vortex3d/viscous/e1.png, id=330, 1092.08pt x 969.6225pt>
+<./figures/vortex3d/viscous/e1.png, id=297, 1092.08pt x 969.6225pt>
 File: ./figures/vortex3d/viscous/e1.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/e1.png>
@@ -1100,7 +1096,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/e1.png used on input line 1
 1.
 (pdftex.def)             Requested size: 78.44843pt x 69.22289pt.
 
-<./figures/vortex3d/viscous/ep1.png, id=332, 1093.08376pt x 970.62625pt>
+<./figures/vortex3d/viscous/ep1.png, id=299, 1093.08376pt x 970.62625pt>
 File: ./figures/vortex3d/viscous/ep1.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/ep1.png>
@@ -1108,7 +1104,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/ep1.png used on input line
 12.
 (pdftex.def)             Requested size: 78.44843pt x 69.22816pt.
 
-<./figures/vortex3d/viscous/m2.png, id=334, 1093.08376pt x 970.62625pt>
+<./figures/vortex3d/viscous/m2.png, id=301, 1093.08376pt x 970.62625pt>
 File: ./figures/vortex3d/viscous/m2.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/m2.png>
@@ -1116,7 +1112,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/m2.png used on input line 1
 3.
 (pdftex.def)             Requested size: 78.44843pt x 69.22816pt.
 
-<./figures/vortex3d/viscous/e2.png, id=336, 1092.08pt x 969.6225pt>
+<./figures/vortex3d/viscous/e2.png, id=303, 1092.08pt x 969.6225pt>
 File: ./figures/vortex3d/viscous/e2.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/e2.png>
@@ -1124,7 +1120,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/e2.png used on input line 1
 4.
 (pdftex.def)             Requested size: 78.44843pt x 69.22289pt.
 
-<./figures/vortex3d/viscous/ep2.png, id=338, 1091.07625pt x 969.6225pt>
+<./figures/vortex3d/viscous/ep2.png, id=305, 1091.07625pt x 969.6225pt>
 File: ./figures/vortex3d/viscous/ep2.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/ep2.png>
@@ -1132,7 +1128,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/ep2.png used on input line
 15.
 (pdftex.def)             Requested size: 78.44843pt x 69.29306pt.
 
-<./figures/vortex3d/viscous/m3.png, id=340, 1093.08376pt x 970.62625pt>
+<./figures/vortex3d/viscous/m3.png, id=307, 1093.08376pt x 970.62625pt>
 File: ./figures/vortex3d/viscous/m3.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/m3.png>
@@ -1140,7 +1136,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/m3.png used on input line 1
 6.
 (pdftex.def)             Requested size: 78.44843pt x 69.22816pt.
 
-<./figures/vortex3d/viscous/e3.png, id=342, 1092.08pt x 969.6225pt>
+<./figures/vortex3d/viscous/e3.png, id=309, 1092.08pt x 969.6225pt>
 File: ./figures/vortex3d/viscous/e3.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/e3.png>
@@ -1148,7 +1144,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/e3.png used on input line 1
 7.
 (pdftex.def)             Requested size: 78.44843pt x 69.22289pt.
 
-<./figures/vortex3d/viscous/ep3.png, id=344, 1092.08pt x 969.6225pt>
+<./figures/vortex3d/viscous/ep3.png, id=311, 1092.08pt x 969.6225pt>
 File: ./figures/vortex3d/viscous/ep3.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/ep3.png>
@@ -1156,7 +1152,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/ep3.png used on input line
 18.
 (pdftex.def)             Requested size: 78.44843pt x 69.22289pt.
 
-<./figures/vortex3d/viscous/1.png, id=346, 982.67125pt x 447.6725pt>
+<./figures/vortex3d/viscous/1.png, id=313, 982.67125pt x 447.6725pt>
 File: ./figures/vortex3d/viscous/1.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/1.png>
@@ -1164,7 +1160,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/1.png used on input line 38
 .
 (pdftex.def)             Requested size: 160.88971pt x 73.2958pt.
 
-<./figures/vortex3d/viscous/2.png, id=348, 986.68625pt x 448.67625pt>
+<./figures/vortex3d/viscous/2.png, id=315, 986.68625pt x 448.67625pt>
 File: ./figures/vortex3d/viscous/2.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/2.png>
@@ -1172,7 +1168,7 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/2.png used on input line 39
 .
 (pdftex.def)             Requested size: 160.88971pt x 73.1589pt.
 
-<./figures/vortex3d/viscous/3.png, id=350, 992.70876pt x 446.66875pt>
+<./figures/vortex3d/viscous/3.png, id=317, 992.70876pt x 446.66875pt>
 File: ./figures/vortex3d/viscous/3.png Graphic file (type png)
 
 <use ./figures/vortex3d/viscous/3.png>
@@ -1180,39 +1176,35 @@ Package pdftex.def Info: ./figures/vortex3d/viscous/3.png used on input line 40
 .
 (pdftex.def)             Requested size: 160.88971pt x 72.38857pt.
 ) (./bulbt.tex
-<./figures/bulbt/bulbt.png, id=352, 1039.885pt x 624.3325pt>
+<./figures/bulbt/bulbt.png, id=319, 1039.885pt x 624.3325pt>
 File: ./figures/bulbt/bulbt.png Graphic file (type png)
 
 <use ./figures/bulbt/bulbt.png>
 Package pdftex.def Info: ./figures/bulbt/bulbt.png used on input line 5.
 (pdftex.def)             Requested size: 238.96957pt x 143.4696pt.
 
-<./figures/bulbt/bulbt-op.png, id=355, 672.5125pt x 572.1375pt>
+<./figures/bulbt/bulbt-op.png, id=322, 672.5125pt x 572.1375pt>
 File: ./figures/bulbt/bulbt-op.png Graphic file (type png)
 
 <use ./figures/bulbt/bulbt-op.png>
 Package pdftex.def Info: ./figures/bulbt/bulbt-op.png used on input line 12.
 (pdftex.def)             Requested size: 238.96957pt x 142.63713pt.
 
-<./figures/bulbt/drafttube.png, id=361, 544.0325pt x 292.09125pt>
+<./figures/bulbt/drafttube.png, id=328, 544.0325pt x 292.09125pt>
 File: ./figures/bulbt/drafttube.png Graphic file (type png)
 
 <use ./figures/bulbt/drafttube.png>
 Package pdftex.def Info: ./figures/bulbt/drafttube.png used on input line 27.
 (pdftex.def)             Requested size: 238.96957pt x 128.30214pt.
- [7 <./figures/vortex3d/04up/04p1.png> <./figures/vortex3d/03up/03p1.png> <./fi
-gures/vortex3d/05up/05p1.png> <./figures/vortex3d/04up/04p3.png> <./figures/vor
-tex3d/03up/03p3.png> <./figures/vortex3d/05up/05p3.png> <./figures/vortex3d/04u
-p/04p5.png> <./figures/vortex3d/03up/03p5.png> <./figures/vortex3d/05up/05p5.pn
-g>]
-<./figures/bulbt/geometry.png, id=400, 978.65625pt x 870.25125pt>
+
+<./figures/bulbt/geometry.png, id=332, 978.65625pt x 870.25125pt>
 File: ./figures/bulbt/geometry.png Graphic file (type png)
 
 <use ./figures/bulbt/geometry.png>
 Package pdftex.def Info: ./figures/bulbt/geometry.png used on input line 39.
 (pdftex.def)             Requested size: 238.96957pt x 163.08722pt.
 
-<./figures/bulbt/grid/overview.png, id=405, 1095.09125pt x 972.63374pt>
+<./figures/bulbt/grid/overview.png, id=337, 1095.09125pt x 972.63374pt>
 File: ./figures/bulbt/grid/overview.png Graphic file (type png)
 
 <use ./figures/bulbt/grid/overview.png>
@@ -1220,45 +1212,64 @@ Package pdftex.def Info: ./figures/bulbt/grid/overview.png used on input line 4
 8.
 (pdftex.def)             Requested size: 490.10214pt x 333.4333pt.
 
-<./figures/bulbt/grid/3m.png, id=407, 1092.08pt x 969.6225pt>
+<./figures/bulbt/grid/3m.png, id=339, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/grid/3m.png Graphic file (type png)
 
 <use ./figures/bulbt/grid/3m.png>
 Package pdftex.def Info: ./figures/bulbt/grid/3m.png used on input line 55.
 (pdftex.def)             Requested size: 160.88971pt x 92.6783pt.
 
-<./figures/bulbt/grid/14m.png, id=409, 1093.08376pt x 969.6225pt>
+<./figures/bulbt/grid/14m.png, id=341, 1093.08376pt x 969.6225pt>
 File: ./figures/bulbt/grid/14m.png Graphic file (type png)
 
 <use ./figures/bulbt/grid/14m.png>
 Package pdftex.def Info: ./figures/bulbt/grid/14m.png used on input line 56.
 (pdftex.def)             Requested size: 160.88971pt x 92.57626pt.
 
-<./figures/bulbt/grid/50m.png, id=411, 1093.08376pt x 970.62625pt>
+<./figures/bulbt/grid/50m.png, id=343, 1093.08376pt x 970.62625pt>
 File: ./figures/bulbt/grid/50m.png Graphic file (type png)
 
 <use ./figures/bulbt/grid/50m.png>
 Package pdftex.def Info: ./figures/bulbt/grid/50m.png used on input line 57.
 (pdftex.def)             Requested size: 160.88971pt x 92.75693pt.
- [8 <./figures/vortex3d/l2/u.png> <./figures/vortex3d/l2/p.png> <./figures/vort
-ex3d/lines/m.png> <./figures/vortex3d/lines/e.png> <./figures/vortex3d/lines/ep
-.png> <./figures/vortex3d/order.png> <./figures/vortex3d/viscous/m1.png> <./fig
-ures/vortex3d/viscous/e1.png> <./figures/vortex3d/viscous/ep1.png> <./figures/v
-ortex3d/viscous/m2.png> <./figures/vortex3d/viscous/e2.png> <./figures/vortex3d
-/viscous/ep2.png> <./figures/vortex3d/viscous/m3.png> <./figures/vortex3d/visco
-us/e3.png> <./figures/vortex3d/viscous/ep3.png>] <./figures/bulbt/Location4B.pn
-g, id=468, 626.34pt x 513.92pt>
+ [6 <./figures/vortex3d/vortex3d.png>]
+Underfull \vbox (badness 1436) has occurred while \output is active []
+
+
+<./figures/bulbt/Location4B.png, id=364, 626.34pt x 513.92pt>
 File: ./figures/bulbt/Location4B.png Graphic file (type png)
 
 <use ./figures/bulbt/Location4B.png>
 Package pdftex.def Info: ./figures/bulbt/Location4B.png used on input line 80.
 (pdftex.def)             Requested size: 238.96957pt x 185.22023pt.
- [9 <./figures/vortex3d/viscous/1.png> <./figures/vortex3d/viscous/2.png> <./fi
-gures/vortex3d/viscous/3.png> <./figures/bulbt/bulbt.png> <./figures/bulbt/bulb
-t-op.png> <./figures/bulbt/drafttube.png> <./figures/bulbt/geometry.png>] [10 <
-./figures/bulbt/grid/overview.png> <./figures/bulbt/grid/3m.png> <./figures/bul
-bt/grid/14m.png> <./figures/bulbt/grid/50m.png>] [11 <./figures/bulbt/Location4
-B.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figures/vortex3d/04up/04u1.png> <./figures/vortex3d/03up/03u1.png> <./fi
+gures/vortex3d/05up/05u1.png> <./figures/vortex3d/04up/04u3.png> <./figures/vor
+tex3d/03up/03u3.png> <./figures/vortex3d/05up/05u3.png> <./figures/vortex3d/04u
+p/04u5.png> <./figures/vortex3d/03up/03u5.png> <./figures/vortex3d/05up/05u5.pn
+g>]
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+ [8 <./figures/vortex3d/04up/04p1.png> <./figures/vortex3d/03up/03p1.png> <./fi
+gures/vortex3d/05up/05p1.png> <./figures/vortex3d/04up/04p3.png> <./figures/vor
+tex3d/03up/03p3.png> <./figures/vortex3d/05up/05p3.png> <./figures/vortex3d/04u
+p/04p5.png> <./figures/vortex3d/03up/03p5.png> <./figures/vortex3d/05up/05p5.pn
+g>] [9 <./figures/vortex3d/l2/u.png> <./figures/vortex3d/l2/p.png> <./figures/v
+ortex3d/lines/m.png> <./figures/vortex3d/lines/e.png> <./figures/vortex3d/lines
+/ep.png> <./figures/vortex3d/order.png> <./figures/vortex3d/viscous/m1.png> <./
+figures/vortex3d/viscous/e1.png> <./figures/vortex3d/viscous/ep1.png> <./figure
+s/vortex3d/viscous/m2.png> <./figures/vortex3d/viscous/e2.png> <./figures/vorte
+x3d/viscous/ep2.png> <./figures/vortex3d/viscous/m3.png> <./figures/vortex3d/vi
+scous/e3.png> <./figures/vortex3d/viscous/ep3.png>] [10 <./figures/vortex3d/vis
+cous/1.png> <./figures/vortex3d/viscous/2.png> <./figures/vortex3d/viscous/3.pn
+g> <./figures/bulbt/bulbt.png> <./figures/bulbt/bulbt-op.png> <./figures/bulbt/
+drafttube.png> <./figures/bulbt/geometry.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./figures/bulbt/grid/overview.png> <./figures/bulbt/grid/3m.png> <./figur
+es/bulbt/grid/14m.png> <./figures/bulbt/grid/50m.png>]
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/3m/multi_plan4BY0_Bul
 bT_op2_uncert_X_w.eps>
 (epstopdf)                    date: 2018-08-05 15:33:00
@@ -1796,32 +1807,33 @@ Package pdftex.def Info: ./figures/bulbt/P/50m.png used on input line 237.
 
 LaTeX Warning: Float too large for page by 6.2054pt on input line 240.
 
-) (./conclusions.tex) [12] [13 <./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op
-2_uncert_X_w-eps-converted-to.pdf> <./figures/bulbt/4BY0/14m/multi_plan4BY0_Bul
-bT_op2_uncert_X_w-eps-converted-to.pdf> <./figures/bulbt/4BY0/50m/multi_plan4BY
-0_BulbT_op2_uncert_X_w-eps-converted-to.pdf> <./figures/bulbt/4BY0/3m/zoom_mult
-i_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf> <./figures/bulbt/4BY0/14m
-/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf> <./figures/bulb
-t/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf>]
-[14 <./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-
-to.pdf> <./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-conve
-rted-to.pdf> <./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-
-converted-to.pdf> <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert
-_X_v-eps-converted-to.pdf> <./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_
-op2_uncert_X_v-eps-converted-to.pdf> <./figures/bulbt/4BY0/50m/zoom_multi_plan4
-BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf>] [15 <./figures/bulbt/w-contours
--y0/14m-m.png> <./figures/bulbt/w-contours-y0/14m-e.png> <./figures/bulbt/w-con
-tours-y0/14m-ep.png> <./figures/bulbt/w-contours-y0/50m-m.png> <./figures/bulbt
-/w-contours-y0/50m-e.png> <./figures/bulbt/w-contours-y0/50m-ep.png>] [16 <./fi
-gures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf> <./fig
-ures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf> <./fig
-ures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf> <./fig
-ures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf> <.
-/figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pd
-f> <./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-
-to.pdf>] [17 <./figures/bulbt/4by0vo/3m.png> <./figures/bulbt/4by0vo/14m.png> <
-./figures/bulbt/4by0vo/50m.png> <./figures/bulbt/P/3m.png> <./figures/bulbt/P/1
-4m.png> <./figures/bulbt/P/50m.png>] (./2018eddy_journal.bbl
+) (./conclusions.tex) [12 <./figures/bulbt/Location4B.png>] [13] [14 <./figures
+/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf> <./fig
+ures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf> <
+./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.p
+df> <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-conve
+rted-to.pdf> <./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w
+-eps-converted-to.pdf> <./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_
+uncert_X_w-eps-converted-to.pdf>] [15 <./figures/bulbt/4BY0/3m/multi_plan4BY0_B
+ulbT_op2_uncert_X_v-eps-converted-to.pdf> <./figures/bulbt/4BY0/14m/multi_plan4
+BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf> <./figures/bulbt/4BY0/50m/multi_
+plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf> <./figures/bulbt/4BY0/3m/zo
+om_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf> <./figures/bulbt/4
+BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf> <./figur
+es/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf
+>] [16 <./figures/bulbt/w-contours-y0/14m-m.png> <./figures/bulbt/w-contours-y0
+/14m-e.png> <./figures/bulbt/w-contours-y0/14m-ep.png> <./figures/bulbt/w-conto
+urs-y0/50m-m.png> <./figures/bulbt/w-contours-y0/50m-e.png> <./figures/bulbt/w-
+contours-y0/50m-ep.png>] [17 <./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_
+Tke_X-eps-converted-to.pdf> <./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_
+Tke_X-eps-converted-to.pdf> <./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_
+Tke_X-eps-converted-to.pdf> <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_
+op2_Tke_X-eps-converted-to.pdf> <./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_B
+ulbT_op2_Tke_X-eps-converted-to.pdf> <./figures/bulbt/4BY0/50m/zoom_multi_plan4
+BY0_BulbT_op2_Tke_X-eps-converted-to.pdf>] [18 <./figures/bulbt/4by0vo/3m.png> 
+<./figures/bulbt/4by0vo/14m.png> <./figures/bulbt/4by0vo/50m.png> <./figures/bu
+lbt/P/3m.png> <./figures/bulbt/P/14m.png> <./figures/bulbt/P/50m.png>]
+(./2018eddy_journal.bbl
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no ™ in font ptmri7t!
@@ -1832,14 +1844,19 @@ Missing character: There is no ” in font ptmr7t!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \hbox (badness 1221) in paragraph at lines 100--103
+[]\OT1/ptm/m/n/10 Sekora, M., and Colella, P., 2009.  ``Extremum-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18
+ [19
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
 
-[19
+[20
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
@@ -1851,10 +1868,10 @@ Package rerunfilecheck Info: File `2018eddy_journal.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 18887 strings out of 493089
- 379912 string characters out of 6134842
- 500273 words of memory out of 5000000
- 21681 multiletter control sequences out of 15000+600000
+ 18892 strings out of 493089
+ 380029 string characters out of 6134842
+ 498072 words of memory out of 5000000
+ 21683 multiletter control sequences out of 15000+600000
  48169 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,67p,2827b,625s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1870,10 +1887,10 @@ f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on 2018eddy_journal.pdf (19 pages, 3043186 bytes).
+Output written on 2018eddy_journal.pdf (20 pages, 3046089 bytes).
 PDF statistics:
- 952 PDF objects out of 1000 (max. 8388607)
- 665 compressed objects within 7 object streams
- 205 named destinations out of 1000 (max. 500000)
+ 960 PDF objects out of 1000 (max. 8388607)
+ 672 compressed objects within 7 object streams
+ 208 named destinations out of 1000 (max. 500000)
  1012 words of extra memory for PDF output out of 10000 (max. 10000000)
 

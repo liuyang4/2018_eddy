@@ -84,23 +84,45 @@ Magnan, R., Cupillard, S., Gauthier, G., Giroux, A., Page, M., et~al., 2014.
 \newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
   IOP Publishing, p.~022010.
 
-\bibitem{mohamed2012eddy}
-Mohamed, K., Nadarajah, S., and Paraschivoiu, M., 2012.
-\newblock ``Eddy-preserving limiter for unsteady subsonic flows''.
-\newblock {\em AIAA Journal, {\bf 50}}(2), pp.~429--446.
-
-\bibitem{yang2016low}
-Yang, L., and Nadarajah, S., 2016.
-\newblock ``A low-dissipation monotonicity-preserving scheme for turbulent
-  flows in hydraulic turbines''.
-\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~49,
-  IOP Publishing, p.~062010.
+\bibitem{venkatakrishnanaccuracy}
+Venkatakrishnan, V., 1993.
+\newblock ``On the accuracy of limiters and convergence to steady state
+  solutions''.
+\newblock {\em AIAA Paper}(93-0880).
 
 \bibitem{huynh1995accurate}
 Huynh, H.~T., 1995.
 \newblock ``Accurate upwind methods for the euler equations''.
 \newblock {\em SIAM Journal on Numerical Analysis, {\bf 32}}(5),
   pp.~1565--1619.
+
+\bibitem{sekora2009extremum}
+Sekora, M., and Colella, P., 2009.
+\newblock ``Extremum-preserving limiters for muscl and ppm''.
+\newblock {\em arXiv preprint arXiv:0903.4200}.
+
+\bibitem{lohner2009limiters}
+L{\"o}hner, R., 2009.
+\newblock ``On limiters for minimal vorticity dissipation''.
+\newblock In Proceedings of the 47th AIAA aerospace sciences meeting, pp.~1--7.
+
+\bibitem{mohamed2012eddy}
+Mohamed, K., Nadarajah, S., and Paraschivoiu, M., 2012.
+\newblock ``Eddy-preserving limiter for unsteady subsonic flows''.
+\newblock {\em AIAA Journal, {\bf 50}}(2), pp.~429--446.
+
+\bibitem{chakraborty2005relationships}
+Chakraborty, P., Balachandar, S., and Adrian, R.~J., 2005.
+\newblock ``On the relationships between local vortex identification schemes''.
+\newblock {\em Journal of Fluid Mechanics, {\bf 535}}, pp.~189--214.
+
+\bibitem{vu2014cfd}
+Vu, T., Gauthier, M., Nennemann, B., Wallimann, H., and Desch{\^e}nes, C.,
+  2014.
+\newblock ``Cfd analysis of a bulb turbine and validation with measurements
+  from the bulbt project''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
+  IOP Publishing, p.~022008.
 
 \bibitem{goncalves2009numerical}
 Goncalves, E., and Patella, R.~F., 2009.
@@ -161,11 +183,6 @@ Turkel, E., 1987.
   compressible equations''.
 \newblock {\em Journal of Computational Physics, {\bf 72}}(2), pp.~277--298.
 
-\bibitem{chakraborty2005relationships}
-Chakraborty, P., Balachandar, S., and Adrian, R.~J., 2005.
-\newblock ``On the relationships between local vortex identification schemes''.
-\newblock {\em Journal of Fluid Mechanics, {\bf 535}}, pp.~189--214.
-
 \bibitem{vuillemard2014experimental}
 Vuillemard, J., Aeschlimann, V., Fraser, R., Lemay, S., and Desch{\^e}nes, C.,
   2014.
@@ -173,14 +190,6 @@ Vuillemard, J., Aeschlimann, V., Fraser, R., Lemay, S., and Desch{\^e}nes, C.,
   turbine''.
 \newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
   IOP Publishing, p.~032010.
-
-\bibitem{vu2014cfd}
-Vu, T., Gauthier, M., Nennemann, B., Wallimann, H., and Desch{\^e}nes, C.,
-  2014.
-\newblock ``Cfd analysis of a bulb turbine and validation with measurements
-  from the bulbt project''.
-\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~22,
-  IOP Publishing, p.~022008.
 
 \bibitem{pereira2017flow}
 Pereira, M., Duquesne, P., Aeschlimann, V., and Desch{\^e}nes, C., 2017.
