@@ -116,6 +116,25 @@ Chakraborty, P., Balachandar, S., and Adrian, R.~J., 2005.
 \newblock ``On the relationships between local vortex identification schemes''.
 \newblock {\em Journal of Fluid Mechanics, {\bf 535}}, pp.~189--214.
 
+\bibitem{taheri2015detached}
+Taheri, A., 2015.
+\newblock ``Detached eddy simulation of unsteady turbulent flows in the draft
+  tube of a bulb turbine''.
+
+\bibitem{pacot2015prediction}
+Pacot, O., Kato, C., Guo, Y., and Yamade, Y., 2015.
+\newblock ``Prediction of the pressure pulsation in a draft tube for a part
+  load condition using the les approach''.
+\newblock In ASME/JSME/KSME 2015 Joint Fluids Engineering Conference, American
+  Society of Mechanical Engineers, pp.~V01AT09A009--V01AT09A009.
+
+\bibitem{wilhelm2016head}
+Wilhelm, S., Balarac, G., M{\'e}tais, O., and S{\'e}goufin, C., 2016.
+\newblock ``Head losses prediction and analysis in a bulb turbine draft tube
+  under different operating conditions using unsteady simulations''.
+\newblock In IOP Conference Series: Earth and Environmental Science, Vol.~49,
+  IOP Publishing, p.~022010.
+
 \bibitem{vu2014cfd}
 Vu, T., Gauthier, M., Nennemann, B., Wallimann, H., and Desch{\^e}nes, C.,
   2014.
