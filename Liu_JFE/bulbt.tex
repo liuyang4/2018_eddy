@@ -83,6 +83,14 @@ where $\lambda$ is the spectral radius of the preconditioned Jacobian. The numer
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t]
+\centering
+   \includegraphics[clip=true, trim= 1.5cm 1.5cm 3.0cm 3.0cm,width=0.99\linewidth]{./figures/bulbt/ivort} 
+   \caption{Illustration of regions where the eddy-preserving limiter is active on Plane 4B on the 50M grid.}
+   \label{ivort}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Velocity Profiles}
 In the experiment, the axial and circumferential velocity profiles were measured by the Laser Doppler Velocimetry (LDV) along $y=0$ of Plane 4B, which is the green line labeled as Axis B in Fig.~\ref{plane4BY0}. This location is referred as 4BY0.
@@ -95,7 +103,7 @@ As for the experimental circumferential velocity, three zones are clearly identi
 
 Figure~\ref{w1} and Figure~\ref{w2} show the contours of axial velocity and two dimensional streamlines at plane $y=0$ on 14M and 50M grids. The axial velocity decelerates rapidly from the inlet to the end of the hub, as the cross section expands drastically. Flow separation takes place on the wall of the hub and a backflow region is formed downstream of the hub. Comparing the results of the MUSCL scheme against the EDDY and EDDY-P schemes, it can be clearly seen that the EDDY and EDDY-P schemes predict a wider and longer backflow region fully attached to the hub. After the hub, the flows merge into one and continue to decelerate, but at a slower rate.
 
-There are several challenges for numerical schemes in predicting the velocity profiles at 4BY0. For the axial velocity, it has a local minimum and a backflow region, while for the circumferential velocity, there are two co-rotating and one counter-rotating zone. The velocity components are constrained by the divergence free condition for incompressible flows. Furthermore, the adverse pressure gradient needs to be accurately resolved to ensure that the flow decelerates appropriately, and the flow separation takes place at the correct location. Tackling these challenges requires highly accurate numerical schemes, and the comparisons illustrate that the MUSCL scheme generally fails to predicting these features, while the developed low dissipative EDDY and EDDY-P schemes have outperformed significantly over the MUSCL scheme.
+There are several challenges for numerical schemes in predicting the velocity profiles at 4BY0. For the axial velocity, it has a local minimum and a backflow region, while for the circumferential velocity, there are two co-rotating and one counter-rotating zone. The velocity components are constrained by the divergence free condition for incompressible flows. Furthermore, the adverse pressure gradient needs to be accurately resolved to ensure that the flow decelerates appropriately, and the flow separation takes place at the correct location. Tackling these challenges requires highly accurate numerical schemes, and the comparisons illustrate that the MUSCL scheme generally fails to predicting these features, while the developed low dissipative EDDY and EDDY-P schemes have outperformed significantly over the MUSCL scheme. As shown in Fig.~\ref{ivort}, the coutours in red represent vortical regions detected on Plane 4B on the 50M grid. The central core region has a radius of approximately 0.03, which not only covers the entire inner co-rotating zone, but also the shear flows formed by the inner co-rotating zone and the counter-rotating zone. On these regions, the eddy-preserving limiter is active; the velocity components are transfered into the vortical system, and the van Albada limiters on the swirl plane are switched off to reduce the dissipation for preserving the vortical motions. As a consquence, the EDDY and EDDY-P schemes are able to better resolve the inner co-rotating zone and the shear flows as demonstrated in Fig.~\ref{zv}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
