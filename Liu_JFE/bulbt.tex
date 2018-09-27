@@ -95,11 +95,16 @@ where $\lambda$ is the spectral radius of the preconditioned Jacobian. The numer
 \subsubsection{Velocity Profiles}
 In the experiment, the axial and circumferential velocity profiles were measured by the Laser Doppler Velocimetry (LDV) along $y=0$ of Plane 4B, which is the green line labeled as Axis B in Fig.~\ref{plane4BY0}. This location is referred as 4BY0.
 
+Velocity profiles are normalized with the reference velocity $U_{ref}$, which is calculated by,
+\begin{align} 
+   U_{ref} = \frac{Q_{dis}}{\pi (\frac{1}{2}D_{ref})^2},
+\end{align}
+where $Q_{dis}$ is the volumetric flow rate at corresponding OPs.
 As shown in Fig.~\ref{w} and Fig.~\ref{v}, the global trends of the experimental axial and circumferential velocities are captured, and on each grid, the velocity profiles computed by all schemes are almost identical. However, zoom-in views of the velocity profiles show some discrepancies in the central region. 
 
 In the zoom-in view of the axial velocity profile in Fig.~\ref{zw}, the experimental data shows a backflow downstream of the hub \cite{vuillemard2014experimental}. The MUSCL scheme shows poor predictions of the backflow region on all three grids. Although EDDY and EDDY-P schemes predict similar profiles to the MUSCL scheme on the 3M grid, they are able to resolve the backflow region on the 14M and 50M grids, and the predictions improve towards the experimental data as the grid was refined. Furthermore, the backflow predicted by the EDDY-P scheme is slightly closer to the experimental data than the EDDY scheme.
 
-As for the experimental circumferential velocity, three zones are clearly identified: an inner co-rotating zone downstream of the hub; an outer co-rotating zone from the cone wall; and a counter-rotating zone in-between \cite{vuillemard2014experimental}. The circumferential velocity first accelerates from the centre point in the direction of the runner rotation gently to a local maximum, which represents a forced vortex induced by the rotating hub. It then decelerates to zero, where the flow rotational direction is reversed, and the inner co-rotating zone is formed from the centre point to this position. The circumferential velocity then subsequently accelerates in the reversed direction to a local maximum and then decelerates. It continues to decelerate to zero and forms the counter-rotating zone.  A shear flow is formed by the inner co-rotating zone and the counter-rotating zone at approximately $x=\pm 0.023$. The flow then changes to a co-rotating direction until it reaches the cone wall. The zoom-in view in Fig.~\ref{zv} shows the circumferential velocity in the inner co-rotating zone and the counter-rotating zone. All schemes do not predict the circumferential velocity very well in the central region on the 3M grid. On the 14M and 50M grids, although the MUSCL scheme has improved slightly, it still behaves poorly from the centre point to the position of maximum velocity in the counter-rotating zone; in comparison, the EDDY and EDDY-P schemes predict better the locations and the magnitudes of the maximum velocities.
+As for the experimental circumferential velocity, three zones are clearly identified: an inner co-rotating zone downstream of the hub; an outer co-rotating zone from the cone wall; and a counter-rotating zone in-between \cite{vuillemard2014experimental}. The circumferential velocity first accelerates from the centre point in the direction of the runner rotation gently to a local maximum, which represents a forced vortex induced by the rotating hub. It then decelerates to zero, where the flow rotational direction is reversed, and the inner co-rotating zone is formed from the centre point to this position. The circumferential velocity then subsequently accelerates in the reversed direction to a local maximum and then decelerates. It continues to decelerate to zero and forms the counter-rotating zone.  A shear flow is formed by the inner co-rotating zone and the counter-rotating zone at approximately $r/D_{ref}=\pm 0.068$. The flow then changes to a co-rotating direction until it reaches the cone wall. The zoom-in view in Fig.~\ref{zv} shows the circumferential velocity in the inner co-rotating zone and the counter-rotating zone. All schemes do not predict the circumferential velocity very well in the central region on the 3M grid. On the 14M and 50M grids, although the MUSCL scheme has improved slightly, it still behaves poorly from the centre point to the position of maximum velocity in the counter-rotating zone; in comparison, the EDDY and EDDY-P schemes predict better the locations and the magnitudes of the maximum velocities.
 
 Figure~\ref{w1} and Figure~\ref{w2} show the contours of axial velocity and two dimensional streamlines at plane $y=0$ on 14M and 50M grids. The axial velocity decelerates rapidly from the inlet to the end of the hub, as the cross section expands drastically. Flow separation takes place on the wall of the hub and a backflow region is formed downstream of the hub. Comparing the results of the MUSCL scheme against the EDDY and EDDY-P schemes, it can be clearly seen that the EDDY and EDDY-P schemes predict a wider and longer backflow region fully attached to the hub. After the hub, the flows merge into one and continue to decelerate, but at a slower rate.
 
@@ -108,7 +113,7 @@ There are several challenges for numerical schemes in predicting the velocity pr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Turbulent Kinetic Energy Profiles}
-The results for the turbulent kinetic energy (TKE)  at 4BY0 are plotted in Fig.~\ref{tke}. There are several peaks found in the experimental profile. Two higher peaks at approximately $x=\pm 0.023$ corresponds to the shear flows formed by the inner co-rotating zone and the counter-rotating zone. Two lower peaks corresponds to the shear layer near the cone walls. Overall, the TKE profiles were underpredicted by all schemes in most of the region. In the zoom-in view of Fig.~\ref{ztke}, incorrect TKE peaks appear in the central region, which are mainly due to the large gradients of the computed velocity profiles in Fig.~\ref{zv}. As the grid was refined, the predictions of flows downstream of the hub have improved, leading to a reduction of the incorrect TKE peak at the central core; while the shear flow has been better formed between the inner co-rotating zone and the counter-rotating zone, the two side peaks edge upwards, showing a clear improvment towards the experimental data. On each grid, compared to the MUSCL scheme, the EDDY and EDDY-P schemes predict slightly higher values at the two side peaks and lower values in the central core region, which leads to better agreement against the experimental data. 
+The results for the turbulent kinetic energy (TKE)  at 4BY0 are plotted in Fig.~\ref{tke}. There are several peaks found in the experimental profile. Two higher peaks at approximately $r/D_{ref}=\pm 0.068$ corresponds to the shear flows formed by the inner co-rotating zone and the counter-rotating zone. Two lower peaks corresponds to the shear layer near the cone walls. Overall, the TKE profiles were underpredicted by all schemes in most of the region. In the zoom-in view of Fig.~\ref{ztke}, incorrect TKE peaks appear in the central region, which are mainly due to the large gradients of the computed velocity profiles in Fig.~\ref{zv}. As the grid was refined, the predictions of flows downstream of the hub have improved, leading to a reduction of the incorrect TKE peak at the central core; while the shear flow has been better formed between the inner co-rotating zone and the counter-rotating zone, the two side peaks edge upwards, showing a clear improvment towards the experimental data. On each grid, compared to the MUSCL scheme, the EDDY and EDDY-P schemes predict slightly higher values at the two side peaks and lower values in the central core region, which leads to better agreement against the experimental data. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,7 +153,7 @@ where $q$, $\dot{m}$ and $S$ are the dynamic pressure, mass flow rate, and cross
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_w}} \\             
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_w}} \\
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_w}}       
-     \caption{Axial velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Cz Az0: \bluediam; EXP Cz Az180: \reddiam.)}
+     \caption{Axial velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Az0: \bluediam; EXP Az180: \reddiam.)}
      \label{w}      
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -157,7 +162,7 @@ where $q$, $\dot{m}$ and $S$ are the dynamic pressure, mass flow rate, and cross
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w}} \\             
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w}} \\
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w}}     
-     \caption{Zoom-in view of axial velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Cz Az0: \bluediam; EXP Cz Az180: \reddiam.)}
+     \caption{Zoom-in view of axial velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Az0: \bluediam; EXP Az180: \reddiam.)}
      \label{zw}       
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -167,7 +172,7 @@ where $q$, $\dot{m}$ and $S$ are the dynamic pressure, mass flow rate, and cross
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_v}} \\             
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_v}} \\
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_v}}     
-     \caption{Circumferential velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Cy Az0: \bluecrx; EXP Cy Az180: \redcrx.)}
+     \caption{Circumferential velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Az0: \bluecrx; EXP Az180: \redcrx.)}
      \label{v}    
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -176,7 +181,7 @@ where $q$, $\dot{m}$ and $S$ are the dynamic pressure, mass flow rate, and cross
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v}} \\             
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v}} \\
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v}}        
-     \caption{Zoom-in view of circumferential velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Cy Az0: \bluecrx; EXP Cy Az180: \redcrx.)}
+     \caption{Zoom-in view of circumferential velocity profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Az0: \bluecrx; EXP Az180: \redcrx.)}
      \label{zv} 
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -208,7 +213,7 @@ where $q$, $\dot{m}$ and $S$ are the dynamic pressure, mass flow rate, and cross
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_Tke_X}} \\             
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_Tke_X}} \\
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_Tke_X}}        
-     \caption{TKE profiles at 4BY0 on (a)3M (b)14M (c)50M grid.  (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP TKE Az0: \bluediam; EXP TKE Az180: \reddiam.)}
+     \caption{TKE profiles at 4BY0 on (a)3M (b)14M (c)50M grid.  (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Az0: \bluediam; EXP Az180: \reddiam.)}
      \label{tke} 
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,7 +222,7 @@ where $q$, $\dot{m}$ and $S$ are the dynamic pressure, mass flow rate, and cross
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_Tke_X}} \\             
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_Tke_X}} \\
      \subfigure[]{\includegraphics[clip=true, trim= 3.0cm 8.0cm 4.0cm 8.0cm,width=0.98\linewidth]{./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_Tke_X}}       
-     \caption{Zoom-in view of TKE profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP TKE Az0: \bluediam; EXP TKE Az180: \reddiam.)}
+     \caption{Zoom-in view of TKE profiles at 4BY0 on (a)3M (b)14M (c)50M grid. (MUSCL: \mline; EDDY: \eline; EDDY-P: \epline; EXP Az0: \bluediam; EXP Az180: \reddiam.)}
      \label{ztke} 
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -240,9 +245,9 @@ where $q$, $\dot{m}$ and $S$ are the dynamic pressure, mass flow rate, and cross
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[t]  
 \centering
-     \subfigure[]{\includegraphics[clip=true, trim= 1.25cm 1.25cm 3.25cm 3.25cm,width=0.98\linewidth]{./figures/bulbt/P/3m}} \\             
-     \subfigure[]{\includegraphics[clip=true, trim= 1.25cm 1.25cm 3.25cm 3.25cm,width=0.98\linewidth]{./figures/bulbt/P/14m}} \\
-     \subfigure[]{\includegraphics[clip=true, trim= 1.25cm 1.25cm 3.25cm 3.25cm,width=0.98\linewidth]{./figures/bulbt/P/50m}}     
+     \subfigure[]{\includegraphics[clip=true, trim= 1.0cm 1.0cm 3.25cm 3.25cm,width=0.98\linewidth]{./figures/bulbt/P/3m}} \\             
+     \subfigure[]{\includegraphics[clip=true, trim= 1.0cm 1.0cm 3.25cm 3.25cm,width=0.98\linewidth]{./figures/bulbt/P/14m}} \\
+     \subfigure[]{\includegraphics[clip=true, trim= 1.0cm 1.0cm 3.25cm 3.25cm,width=0.98\linewidth]{./figures/bulbt/P/50m}}     
      \caption{Pressure profiles at 4BY0 on (a)3M (b)14M (c)50M grid.}
      \label{p}            
 \end{figure}

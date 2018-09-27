@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2018 10:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 SEP 2018 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,560 +1263,556 @@ Underfull \vbox (badness 1867) has occurred while \output is active []
 gures/vortex3d/05up/05p1.png> <./figures/vortex3d/04up/04p3.png> <./figures/vor
 tex3d/03up/03p3.png> <./figures/vortex3d/05up/05p3.png> <./figures/vortex3d/04u
 p/04p5.png> <./figures/vortex3d/03up/03p5.png> <./figures/vortex3d/05up/05p5.pn
-g>]
-
-LaTeX Warning: Reference `ivort' on page 9 undefined on input line 106.
-
-[9 <./figures/vortex3d/l2/u.png> <./figures/vortex3d/l2/p.png> <./figures/vorte
-x3d/lines/m.png> <./figures/vortex3d/lines/e.png> <./figures/vortex3d/lines/ep.
-png> <./figures/vortex3d/order.png> <./figures/vortex3d/viscous/m1.png> <./figu
-res/vortex3d/viscous/e1.png> <./figures/vortex3d/viscous/ep1.png> <./figures/vo
-rtex3d/viscous/m2.png> <./figures/vortex3d/viscous/e2.png> <./figures/vortex3d/
-viscous/ep2.png> <./figures/vortex3d/viscous/m3.png> <./figures/vortex3d/viscou
-s/e3.png> <./figures/vortex3d/viscous/ep3.png>] [10 <./figures/vortex3d/viscous
-/1.png> <./figures/vortex3d/viscous/2.png> <./figures/vortex3d/viscous/3.png> <
-./figures/bulbt/bulbt.png> <./figures/bulbt/bulbt-op.png> <./figures/bulbt/draf
-ttube.png> <./figures/bulbt/geometry.png>]
+g>] [9 <./figures/vortex3d/l2/u.png> <./figures/vortex3d/l2/p.png> <./figures/v
+ortex3d/lines/m.png> <./figures/vortex3d/lines/e.png> <./figures/vortex3d/lines
+/ep.png> <./figures/vortex3d/order.png> <./figures/vortex3d/viscous/m1.png> <./
+figures/vortex3d/viscous/e1.png> <./figures/vortex3d/viscous/ep1.png> <./figure
+s/vortex3d/viscous/m2.png> <./figures/vortex3d/viscous/e2.png> <./figures/vorte
+x3d/viscous/ep2.png> <./figures/vortex3d/viscous/m3.png> <./figures/vortex3d/vi
+scous/e3.png> <./figures/vortex3d/viscous/ep3.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./figures/bulbt/grid/overview.png> <./figures/bulbt/grid/3m.png> <./figur
-es/bulbt/grid/14m.png> <./figures/bulbt/grid/50m.png>]
+ [10 <./figures/vortex3d/viscous/1.png> <./figures/vortex3d/viscous/2.png> <./f
+igures/vortex3d/viscous/3.png> <./figures/bulbt/bulbt.png> <./figures/bulbt/bul
+bt-op.png> <./figures/bulbt/drafttube.png> <./figures/bulbt/geometry.png>] [11 
+<./figures/bulbt/grid/overview.png> <./figures/bulbt/grid/3m.png> <./figures/bu
+lbt/grid/14m.png> <./figures/bulbt/grid/50m.png>]
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/3m/multi_plan4BY0_Bul
 bT_op2_uncert_X_w.eps>
-(epstopdf)                    date: 2018-08-05 15:33:00
-(epstopdf)                    size: 43534 bytes
+(epstopdf)                    date: 2018-09-26 15:10:54
+(epstopdf)                    size: 43058 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/3m/multi_plan4BY0_Bul
 bT_op2_uncert_X_w-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:29
-(epstopdf)                    size: 14172 bytes
+(epstopdf)                    date: 2018-09-26 15:38:21
+(epstopdf)                    size: 14046 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/3m/mu
 lti_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf ./figures/bulbt/4BY0/3m/
 multi_plan4BY0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.p
-df, id=563, 614.295pt x 794.97pt>
+df, id=566, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-
 to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncer
-t_X_w-eps-converted-to.pdf used on input line 148.
+t_X_w-eps-converted-to.pdf used on input line 153.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/14m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_w.eps>
-(epstopdf)                    date: 2018-08-04 16:26:13
-(epstopdf)                    size: 47526 bytes
+(epstopdf)                    date: 2018-09-26 15:12:20
+(epstopdf)                    size: 47044 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/14m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_w-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:29
-(epstopdf)                    size: 15102 bytes
+(epstopdf)                    date: 2018-09-26 15:38:21
+(epstopdf)                    size: 14993 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/14m/m
 ulti_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf ./figures/bulbt/4BY0/14
 m/multi_plan4BY0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.
-pdf, id=565, 614.295pt x 794.97pt>
+pdf, id=568, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted
 -to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_unce
-rt_X_w-eps-converted-to.pdf used on input line 149.
+rt_X_w-eps-converted-to.pdf used on input line 154.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/50m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_w.eps>
-(epstopdf)                    date: 2018-08-03 15:41:09
-(epstopdf)                    size: 56419 bytes
+(epstopdf)                    date: 2018-09-26 15:13:30
+(epstopdf)                    size: 55921 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/50m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_w-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:30
-(epstopdf)                    size: 17763 bytes
+(epstopdf)                    date: 2018-09-26 15:38:22
+(epstopdf)                    size: 17626 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/50m/m
 ulti_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf ./figures/bulbt/4BY0/50
 m/multi_plan4BY0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.
-pdf, id=567, 614.295pt x 794.97pt>
+pdf, id=570, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted
 -to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_unce
-rt_X_w-eps-converted-to.pdf used on input line 150.
+rt_X_w-eps-converted-to.pdf used on input line 155.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY
 0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)                    date: 2018-08-05 15:33:00
-(epstopdf)                    size: 22343 bytes
+(epstopdf)                    date: 2018-09-26 15:10:54
+(epstopdf)                    size: 26727 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY
 0_BulbT_op2_uncert_X_w-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:30
-(epstopdf)                    size: 8856 bytes
+(epstopdf)                    date: 2018-09-26 15:38:22
+(epstopdf)                    size: 9789 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/3m/zo
 om_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf ./figures/bulbt/4BY
 0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted
--to.pdf, id=569, 614.295pt x 794.97pt>
+-to.pdf, id=572, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-conve
 rted-to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_
-uncert_X_w-eps-converted-to.pdf used on input line 157.
+uncert_X_w-eps-converted-to.pdf used on input line 162.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/14m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)                    date: 2018-08-04 16:26:13
-(epstopdf)                    size: 24788 bytes
+(epstopdf)                    date: 2018-09-26 15:12:20
+(epstopdf)                    size: 27172 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/14m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_w-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:31
-(epstopdf)                    size: 9495 bytes
+(epstopdf)                    date: 2018-09-26 15:38:23
+(epstopdf)                    size: 9878 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/14m/z
 oom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf ./figures/bulbt/4B
 Y0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converte
-d-to.pdf, id=571, 614.295pt x 794.97pt>
+d-to.pdf, id=574, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-con
 verted-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-conv
 erted-to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2
-_uncert_X_w-eps-converted-to.pdf used on input line 158.
+_uncert_X_w-eps-converted-to.pdf used on input line 163.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/50m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)                    date: 2018-08-03 15:41:09
-(epstopdf)                    size: 27800 bytes
+(epstopdf)                    date: 2018-09-26 15:13:30
+(epstopdf)                    size: 30214 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/50m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_w-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:31
-(epstopdf)                    size: 10443 bytes
+(epstopdf)                    date: 2018-09-26 15:38:23
+(epstopdf)                    size: 10835 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/50m/z
 oom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converted-to.pdf ./figures/bulbt/4B
 Y0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w.eps>
-(epstopdf)             \includegraphics on input line 159.
+(epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-converte
-d-to.pdf, id=573, 614.295pt x 794.97pt>
+d-to.pdf, id=576, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-con
 verted-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_w-eps-conv
 erted-to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2
-_uncert_X_w-eps-converted-to.pdf used on input line 159.
+_uncert_X_w-eps-converted-to.pdf used on input line 164.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/3m/multi_plan4BY0_Bul
 bT_op2_uncert_X_v.eps>
-(epstopdf)                    date: 2018-08-05 15:33:00
-(epstopdf)                    size: 45611 bytes
+(epstopdf)                    date: 2018-09-27 10:56:33
+(epstopdf)                    size: 128356 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/3m/multi_plan4BY0_Bul
 bT_op2_uncert_X_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:32
-(epstopdf)                    size: 13660 bytes
+(epstopdf)                    date: 2018-09-27 10:59:33
+(epstopdf)                    size: 14738 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/3m/mu
 lti_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf ./figures/bulbt/4BY0/3m/
 multi_plan4BY0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.p
-df, id=575, 614.295pt x 794.97pt>
+df, id=578, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-
 to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_uncer
-t_X_v-eps-converted-to.pdf used on input line 167.
+t_X_v-eps-converted-to.pdf used on input line 172.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/14m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_v.eps>
-(epstopdf)                    date: 2018-08-04 16:26:13
-(epstopdf)                    size: 49847 bytes
+(epstopdf)                    date: 2018-09-27 10:57:37
+(epstopdf)                    size: 132618 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/14m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:32
-(epstopdf)                    size: 14965 bytes
+(epstopdf)                    date: 2018-09-27 10:59:34
+(epstopdf)                    size: 16017 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/14m/m
 ulti_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf ./figures/bulbt/4BY0/14
 m/multi_plan4BY0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.
-pdf, id=577, 614.295pt x 794.97pt>
+pdf, id=580, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted
 -to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_unce
-rt_X_v-eps-converted-to.pdf used on input line 168.
+rt_X_v-eps-converted-to.pdf used on input line 173.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/50m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_v.eps>
-(epstopdf)                    date: 2018-08-03 15:41:09
-(epstopdf)                    size: 58924 bytes
+(epstopdf)                    date: 2018-09-27 10:58:20
+(epstopdf)                    size: 141809 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/50m/multi_plan4BY0_Bu
 lbT_op2_uncert_X_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:14:32
-(epstopdf)                    size: 17692 bytes
+(epstopdf)                    date: 2018-09-27 10:59:34
+(epstopdf)                    size: 18761 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/50m/m
 ulti_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf ./figures/bulbt/4BY0/50
 m/multi_plan4BY0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)             \includegraphics on input line 169.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.
-pdf, id=579, 614.295pt x 794.97pt>
+pdf, id=582, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted
 -to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_unce
-rt_X_v-eps-converted-to.pdf used on input line 169.
+rt_X_v-eps-converted-to.pdf used on input line 174.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY
 0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)                    date: 2018-09-03 20:54:46
-(epstopdf)                    size: 29413 bytes
+(epstopdf)                    date: 2018-09-27 10:56:33
+(epstopdf)                    size: 114685 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY
 0_BulbT_op2_uncert_X_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-09-03 20:58:33
-(epstopdf)                    size: 10337 bytes
+(epstopdf)                    date: 2018-09-27 10:59:35
+(epstopdf)                    size: 11503 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/3m/zo
 om_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf ./figures/bulbt/4BY
 0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)             \includegraphics on input line 176.
+(epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted
--to.pdf, id=581, 614.295pt x 794.97pt>
+-to.pdf, id=584, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-conve
 rted-to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_
-uncert_X_v-eps-converted-to.pdf used on input line 176.
+uncert_X_v-eps-converted-to.pdf used on input line 181.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/14m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)                    date: 2018-09-03 20:55:54
-(epstopdf)                    size: 29803 bytes
+(epstopdf)                    date: 2018-09-27 10:57:37
+(epstopdf)                    size: 115099 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/14m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-09-03 20:58:33
-(epstopdf)                    size: 10522 bytes
+(epstopdf)                    date: 2018-09-27 10:59:35
+(epstopdf)                    size: 11638 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/14m/z
 oom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf ./figures/bulbt/4B
 Y0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converte
-d-to.pdf, id=583, 614.295pt x 794.97pt>
+d-to.pdf, id=586, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-con
 verted-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-conv
 erted-to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2
-_uncert_X_v-eps-converted-to.pdf used on input line 177.
+_uncert_X_v-eps-converted-to.pdf used on input line 182.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/50m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)                    date: 2018-09-03 20:56:29
-(epstopdf)                    size: 33122 bytes
+(epstopdf)                    date: 2018-09-27 10:58:20
+(epstopdf)                    size: 118450 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/50m/zoom_multi_plan4B
 Y0_BulbT_op2_uncert_X_v-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-09-03 20:58:34
-(epstopdf)                    size: 11625 bytes
+(epstopdf)                    date: 2018-09-27 10:59:35
+(epstopdf)                    size: 12783 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/50m/z
 oom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converted-to.pdf ./figures/bulbt/4B
 Y0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-converte
-d-to.pdf, id=585, 614.295pt x 794.97pt>
+d-to.pdf, id=588, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-con
 verted-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_uncert_X_v-eps-conv
 erted-to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2
-_uncert_X_v-eps-converted-to.pdf used on input line 178.
+_uncert_X_v-eps-converted-to.pdf used on input line 183.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 
-<./figures/bulbt/w-contours-y0/14m-m.png, id=587, 1092.08pt x 970.62625pt>
+<./figures/bulbt/w-contours-y0/14m-m.png, id=590, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/w-contours-y0/14m-m.png Graphic file (type png)
 
 <use ./figures/bulbt/w-contours-y0/14m-m.png>
 Package pdftex.def Info: ./figures/bulbt/w-contours-y0/14m-m.png used on input 
-line 186.
-(pdftex.def)             Requested size: 205.17624pt x 216.31898pt.
+line 191.
+(pdftex.def)             Requested size: 205.17624pt x 216.09195pt.
 
-<./figures/bulbt/w-contours-y0/14m-e.png, id=589, 1092.08pt x 969.6225pt>
+<./figures/bulbt/w-contours-y0/14m-e.png, id=592, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/w-contours-y0/14m-e.png Graphic file (type png)
 
 <use ./figures/bulbt/w-contours-y0/14m-e.png>
 Package pdftex.def Info: ./figures/bulbt/w-contours-y0/14m-e.png used on input 
-line 187.
+line 192.
 (pdftex.def)             Requested size: 205.17624pt x 216.09195pt.
 
-<./figures/bulbt/w-contours-y0/14m-ep.png, id=591, 1092.08pt x 969.6225pt>
+<./figures/bulbt/w-contours-y0/14m-ep.png, id=594, 1093.08376pt x 970.62625pt>
 File: ./figures/bulbt/w-contours-y0/14m-ep.png Graphic file (type png)
 
 <use ./figures/bulbt/w-contours-y0/14m-ep.png>
 Package pdftex.def Info: ./figures/bulbt/w-contours-y0/14m-ep.png used on input
- line 188.
-(pdftex.def)             Requested size: 205.17624pt x 216.09195pt.
+ line 193.
+(pdftex.def)             Requested size: 205.17624pt x 216.07089pt.
 
 
-LaTeX Warning: Float too large for page by 47.73863pt on input line 191.
+LaTeX Warning: Float too large for page by 47.49054pt on input line 196.
 
-<./figures/bulbt/w-contours-y0/50m-m.png, id=593, 1091.07625pt x 968.61874pt>
+<./figures/bulbt/w-contours-y0/50m-m.png, id=596, 1092.08pt x 970.62625pt>
 File: ./figures/bulbt/w-contours-y0/50m-m.png Graphic file (type png)
 
 <use ./figures/bulbt/w-contours-y0/50m-m.png>
 Package pdftex.def Info: ./figures/bulbt/w-contours-y0/50m-m.png used on input 
-line 196.
-(pdftex.def)             Requested size: 205.17624pt x 216.09793pt.
+line 201.
+(pdftex.def)             Requested size: 205.17624pt x 216.31898pt.
 
-<./figures/bulbt/w-contours-y0/50m-e.png, id=595, 1092.08pt x 969.6225pt>
+<./figures/bulbt/w-contours-y0/50m-e.png, id=598, 1093.08376pt x 970.62625pt>
 File: ./figures/bulbt/w-contours-y0/50m-e.png Graphic file (type png)
 
 <use ./figures/bulbt/w-contours-y0/50m-e.png>
 Package pdftex.def Info: ./figures/bulbt/w-contours-y0/50m-e.png used on input 
-line 197.
-(pdftex.def)             Requested size: 205.17624pt x 216.09195pt.
+line 202.
+(pdftex.def)             Requested size: 205.17624pt x 216.07089pt.
 
-<./figures/bulbt/w-contours-y0/50m-ep.png, id=597, 1092.08pt x 969.6225pt>
+<./figures/bulbt/w-contours-y0/50m-ep.png, id=600, 1093.08376pt x 970.62625pt>
 File: ./figures/bulbt/w-contours-y0/50m-ep.png Graphic file (type png)
 
 <use ./figures/bulbt/w-contours-y0/50m-ep.png>
 Package pdftex.def Info: ./figures/bulbt/w-contours-y0/50m-ep.png used on input
- line 198.
-(pdftex.def)             Requested size: 205.17624pt x 216.09195pt.
+ line 203.
+(pdftex.def)             Requested size: 205.17624pt x 216.07089pt.
 
 
-LaTeX Warning: Float too large for page by 47.51758pt on input line 201.
+LaTeX Warning: Float too large for page by 47.69652pt on input line 206.
 
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/3m/multi_plan4BY0_Bul
 bT_op2_Tke_X.eps>
-(epstopdf)                    date: 2018-08-05 15:33:00
-(epstopdf)                    size: 45828 bytes
+(epstopdf)                    date: 2018-09-26 15:32:12
+(epstopdf)                    size: 42963 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/3m/multi_plan4BY0_Bul
 bT_op2_Tke_X-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:11:32
-(epstopdf)                    size: 14490 bytes
+(epstopdf)                    date: 2018-09-26 15:38:26
+(epstopdf)                    size: 13858 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/3m/mu
 lti_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf ./figures/bulbt/4BY0/3m/multi
 _plan4BY0_BulbT_op2_Tke_X.eps>
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf, i
-d=599, 614.295pt x 794.97pt>
+d=602, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_Tke_X
--eps-converted-to.pdf used on input line 208.
+-eps-converted-to.pdf used on input line 213.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/14m/multi_plan4BY0_Bu
 lbT_op2_Tke_X.eps>
-(epstopdf)                    date: 2018-08-04 16:26:13
-(epstopdf)                    size: 50037 bytes
+(epstopdf)                    date: 2018-09-26 15:32:59
+(epstopdf)                    size: 47133 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/14m/multi_plan4BY0_Bu
 lbT_op2_Tke_X-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:11:32
-(epstopdf)                    size: 15435 bytes
+(epstopdf)                    date: 2018-09-26 15:38:27
+(epstopdf)                    size: 14821 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/14m/m
 ulti_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf ./figures/bulbt/4BY0/14m/mul
 ti_plan4BY0_BulbT_op2_Tke_X.eps>
-(epstopdf)             \includegraphics on input line 209.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf, 
-id=601, 614.295pt x 794.97pt>
+id=604, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.p
 df>
 Package pdftex.def Info: ./figures/bulbt/4BY0/14m/multi_plan4BY0_BulbT_op2_Tke_
-X-eps-converted-to.pdf used on input line 209.
+X-eps-converted-to.pdf used on input line 214.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/50m/multi_plan4BY0_Bu
 lbT_op2_Tke_X.eps>
-(epstopdf)                    date: 2018-08-03 15:41:08
-(epstopdf)                    size: 59176 bytes
+(epstopdf)                    date: 2018-09-26 15:35:14
+(epstopdf)                    size: 56317 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/50m/multi_plan4BY0_Bu
 lbT_op2_Tke_X-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:11:32
-(epstopdf)                    size: 18070 bytes
+(epstopdf)                    date: 2018-09-26 15:38:27
+(epstopdf)                    size: 17430 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/50m/m
 ulti_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf ./figures/bulbt/4BY0/50m/mul
 ti_plan4BY0_BulbT_op2_Tke_X.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf, 
-id=603, 614.295pt x 794.97pt>
+id=606, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.p
 df>
 Package pdftex.def Info: ./figures/bulbt/4BY0/50m/multi_plan4BY0_BulbT_op2_Tke_
-X-eps-converted-to.pdf used on input line 210.
+X-eps-converted-to.pdf used on input line 215.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY
 0_BulbT_op2_Tke_X.eps>
-(epstopdf)                    date: 2018-08-05 15:33:00
-(epstopdf)                    size: 29895 bytes
+(epstopdf)                    date: 2018-09-26 15:32:12
+(epstopdf)                    size: 30415 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY
 0_BulbT_op2_Tke_X-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:11:33
-(epstopdf)                    size: 11182 bytes
+(epstopdf)                    date: 2018-09-26 15:38:28
+(epstopdf)                    size: 10728 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/3m/zo
 om_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf ./figures/bulbt/4BY0/3m/
 zoom_multi_plan4BY0_BulbT_op2_Tke_X.eps>
-(epstopdf)             \includegraphics on input line 217.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.p
-df, id=605, 614.295pt x 794.97pt>
+df, id=608, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-
 to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/3m/zoom_multi_plan4BY0_BulbT_op2_
-Tke_X-eps-converted-to.pdf used on input line 217.
+Tke_X-eps-converted-to.pdf used on input line 222.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/14m/zoom_multi_plan4B
 Y0_BulbT_op2_Tke_X.eps>
-(epstopdf)                    date: 2018-08-04 16:26:13
-(epstopdf)                    size: 30243 bytes
+(epstopdf)                    date: 2018-09-26 15:32:59
+(epstopdf)                    size: 30748 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/14m/zoom_multi_plan4B
 Y0_BulbT_op2_Tke_X-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:11:33
-(epstopdf)                    size: 11286 bytes
+(epstopdf)                    date: 2018-09-26 15:38:28
+(epstopdf)                    size: 10848 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/14m/z
 oom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf ./figures/bulbt/4BY0/14
 m/zoom_multi_plan4BY0_BulbT_op2_Tke_X.eps>
-(epstopdf)             \includegraphics on input line 218.
+(epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.
-pdf, id=607, 614.295pt x 794.97pt>
+pdf, id=610, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted
 -to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/14m/zoom_multi_plan4BY0_BulbT_op2
-_Tke_X-eps-converted-to.pdf used on input line 218.
+_Tke_X-eps-converted-to.pdf used on input line 223.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
 Package epstopdf Info: Source file: <./figures/bulbt/4BY0/50m/zoom_multi_plan4B
 Y0_BulbT_op2_Tke_X.eps>
-(epstopdf)                    date: 2018-08-03 15:41:09
-(epstopdf)                    size: 33563 bytes
+(epstopdf)                    date: 2018-09-26 15:35:14
+(epstopdf)                    size: 34117 bytes
 (epstopdf)             Output file: <./figures/bulbt/4BY0/50m/zoom_multi_plan4B
 Y0_BulbT_op2_Tke_X-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 16:11:34
-(epstopdf)                    size: 12322 bytes
+(epstopdf)                    date: 2018-09-26 15:38:28
+(epstopdf)                    size: 11882 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bulbt/4BY0/50m/z
 oom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.pdf ./figures/bulbt/4BY0/50
 m/zoom_multi_plan4BY0_BulbT_op2_Tke_X.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted-to.
-pdf, id=609, 614.295pt x 794.97pt>
+pdf, id=612, 614.295pt x 794.97pt>
 File: ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2_Tke_X-eps-converted
 -to.pdf>
 Package pdftex.def Info: ./figures/bulbt/4BY0/50m/zoom_multi_plan4BY0_BulbT_op2
-_Tke_X-eps-converted-to.pdf used on input line 219.
+_Tke_X-eps-converted-to.pdf used on input line 224.
 (pdftex.def)             Requested size: 236.5534pt x 193.59396pt.
- <./figures/bulbt/4by0vo/3m.png, id=611, 1093.08376pt x 969.6225pt>
+ <./figures/bulbt/4by0vo/3m.png, id=614, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/4by0vo/3m.png Graphic file (type png)
 
 <use ./figures/bulbt/4by0vo/3m.png>
-Package pdftex.def Info: ./figures/bulbt/4by0vo/3m.png used on input line 231.
-(pdftex.def)             Requested size: 236.5534pt x 206.28647pt.
+Package pdftex.def Info: ./figures/bulbt/4by0vo/3m.png used on input line 236.
+(pdftex.def)             Requested size: 236.5534pt x 206.50478pt.
 
-<./figures/bulbt/4by0vo/14m.png, id=613, 1092.08pt x 969.6225pt>
+<./figures/bulbt/4by0vo/14m.png, id=616, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/4by0vo/14m.png Graphic file (type png)
 
 <use ./figures/bulbt/4by0vo/14m.png>
-Package pdftex.def Info: ./figures/bulbt/4by0vo/14m.png used on input line 232.
+Package pdftex.def Info: ./figures/bulbt/4by0vo/14m.png used on input line 237.
 
 (pdftex.def)             Requested size: 236.5534pt x 206.50478pt.
 
-<./figures/bulbt/4by0vo/50m.png, id=615, 1093.08376pt x 969.6225pt>
+<./figures/bulbt/4by0vo/50m.png, id=618, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/4by0vo/50m.png Graphic file (type png)
 
 <use ./figures/bulbt/4by0vo/50m.png>
-Package pdftex.def Info: ./figures/bulbt/4by0vo/50m.png used on input line 233.
+Package pdftex.def Info: ./figures/bulbt/4by0vo/50m.png used on input line 238.
 
-(pdftex.def)             Requested size: 236.5534pt x 206.28647pt.
+(pdftex.def)             Requested size: 236.5534pt x 206.50478pt.
 
 
-LaTeX Warning: Float too large for page by 18.14938pt on input line 236.
+LaTeX Warning: Float too large for page by 18.586pt on input line 241.
 
-<./figures/bulbt/P/3m.png, id=617, 1092.08pt x 968.61874pt>
+<./figures/bulbt/P/3m.png, id=620, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/P/3m.png Graphic file (type png)
 
 <use ./figures/bulbt/P/3m.png>
-Package pdftex.def Info: ./figures/bulbt/P/3m.png used on input line 243.
-(pdftex.def)             Requested size: 236.5534pt x 206.25847pt.
+Package pdftex.def Info: ./figures/bulbt/P/3m.png used on input line 248.
+(pdftex.def)             Requested size: 236.5534pt x 206.72208pt.
 
-<./figures/bulbt/P/14m.png, id=619, 1092.08pt x 969.6225pt>
+<./figures/bulbt/P/14m.png, id=622, 1091.07625pt x 969.6225pt>
 File: ./figures/bulbt/P/14m.png Graphic file (type png)
 
 <use ./figures/bulbt/P/14m.png>
-Package pdftex.def Info: ./figures/bulbt/P/14m.png used on input line 244.
-(pdftex.def)             Requested size: 236.5534pt x 206.50478pt.
+Package pdftex.def Info: ./figures/bulbt/P/14m.png used on input line 249.
+(pdftex.def)             Requested size: 236.5534pt x 206.92928pt.
 
-<./figures/bulbt/P/50m.png, id=621, 1092.08pt x 968.61874pt>
+<./figures/bulbt/P/50m.png, id=624, 1092.08pt x 969.6225pt>
 File: ./figures/bulbt/P/50m.png Graphic file (type png)
 
 <use ./figures/bulbt/P/50m.png>
-Package pdftex.def Info: ./figures/bulbt/P/50m.png used on input line 245.
-(pdftex.def)             Requested size: 236.5534pt x 206.25847pt.
+Package pdftex.def Info: ./figures/bulbt/P/50m.png used on input line 250.
+(pdftex.def)             Requested size: 236.5534pt x 206.72208pt.
 
 
-LaTeX Warning: Float too large for page by 6.2054pt on input line 248.
+LaTeX Warning: Float too large for page by 7.55711pt on input line 253.
 
 [12 <./figures/bulbt/Location4B.png> <./figures/bulbt/ivort.png>])
 (./conclusions.tex) [13] [14 <./figures/bulbt/4BY0/3m/multi_plan4BY0_BulbT_op2_
@@ -1876,19 +1872,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `2018eddy_journal.out' has not changed.
 (rerunfilecheck)             Checksum: 651DF68BDA5ACCE3C9E39DEBAAB2F7D3;1423.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 18905 strings out of 493089
- 380298 string characters out of 6134842
- 500430 words of memory out of 5000000
+ 18906 strings out of 493089
+ 380311 string characters out of 6134842
+ 500813 words of memory out of 5000000
  21691 multiletter control sequences out of 15000+600000
  48169 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1905,10 +1894,10 @@ f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on 2018eddy_journal.pdf (20 pages, 3070404 bytes).
+Output written on 2018eddy_journal.pdf (20 pages, 3151090 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
- 685 compressed objects within 7 object streams
- 212 named destinations out of 1000 (max. 500000)
+ 1003 PDF objects out of 1200 (max. 8388607)
+ 705 compressed objects within 8 object streams
+ 213 named destinations out of 1000 (max. 500000)
  1023 words of extra memory for PDF output out of 10000 (max. 10000000)
 
