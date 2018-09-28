@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 SEP 2018 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 SEP 2018 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1861,23 +1861,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [19
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
 
 [20
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (./2018eddy_journal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `2018eddy_journal.out' has not changed.
 (rerunfilecheck)             Checksum: 651DF68BDA5ACCE3C9E39DEBAAB2F7D3;1423.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
  18906 strings out of 493089
  380311 string characters out of 6134842
- 500813 words of memory out of 5000000
+ 501813 words of memory out of 5000000
  21691 multiletter control sequences out of 15000+600000
  48169 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1894,7 +1894,7 @@ f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on 2018eddy_journal.pdf (20 pages, 3151090 bytes).
+Output written on 2018eddy_journal.pdf (20 pages, 3151174 bytes).
 PDF statistics:
  1003 PDF objects out of 1200 (max. 8388607)
  705 compressed objects within 8 object streams
